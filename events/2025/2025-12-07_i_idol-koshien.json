@@ -270,7 +270,7 @@
             "emoji": "📸"
         },
         {
-            "type": "goods",
+            "type": "tokuten",
             "act": "終演後物販",
             "stage_id": "main",
             "start": "21:10",
@@ -278,7 +278,7 @@
             "description": "撮影可能エリアあり"
         },
         {
-            "type": "goods",
+            "type": "tokuten",
             "act": "Question.VI",
             "stage_id": "goods_a",
             "start": "09:10",
@@ -286,7 +286,7 @@
             "description": "撮影可能エリアあり"
         },
         {
-            "type": "goods",
+            "type": "tokuten",
             "act": "紫陽花は降らない",
             "stage_id": "goods_a",
             "start": "10:50",
@@ -294,7 +294,7 @@
             "emoji": "📸"
         },
         {
-            "type": "goods",
+            "type": "tokuten",
             "act": "Maison de Queen",
             "stage_id": "goods_a",
             "start": "12:30",
@@ -302,35 +302,35 @@
             "emoji": "📸"
         },
         {
-            "type": "goods",
+            "type": "tokuten",
             "act": "ハルニジョン",
             "stage_id": "goods_a",
             "start": "14:15",
             "end": "15:35"
         },
         {
-            "type": "goods",
+            "type": "tokuten",
             "act": "SITUASION",
             "stage_id": "goods_a",
             "start": "15:55",
             "end": "17:15"
         },
         {
-            "type": "goods",
+            "type": "tokuten",
             "act": "シェメイ",
             "stage_id": "goods_a",
             "start": "17:40",
             "end": "19:00"
         },
         {
-            "type": "goods",
+            "type": "tokuten",
             "act": "ルルネージュ",
             "stage_id": "goods_a",
             "start": "19:20",
             "end": "20:40"
         },
         {
-            "type": "goods",
+            "type": "tokuten",
             "act": "がすみ草とステラ",
             "stage_id": "goods_a",
             "start": "19:45",
@@ -338,14 +338,14 @@
             "emoji": "📸"
         },
         {
-            "type": "goods",
+            "type": "tokuten",
             "act": "アストレイル",
             "stage_id": "goods_b",
             "start": "09:35",
             "end": "10:55"
         },
         {
-            "type": "goods",
+            "type": "tokuten",
             "act": "I MY ME MINE",
             "stage_id": "goods_b",
             "start": "11:15",
@@ -353,7 +353,7 @@
             "emoji": "📸"
         },
         {
-            "type": "goods",
+            "type": "tokuten",
             "act": "RAViDAVi",
             "stage_id": "goods_b",
             "start": "12:55",
@@ -362,14 +362,14 @@
             "emoji": "📸"
         },
         {
-            "type": "goods",
+            "type": "tokuten",
             "act": "MyDearDarlin'",
             "stage_id": "goods_b",
             "start": "14:40",
             "end": "16:00"
         },
         {
-            "type": "goods",
+            "type": "tokuten",
             "act": "Mirror,Mirror",
             "stage_id": "goods_b",
             "start": "16:20",
@@ -377,14 +377,14 @@
             "description": "撮影可能エリアあり"
         },
         {
-            "type": "goods",
+            "type": "tokuten",
             "act": "Tohkei",
             "stage_id": "goods_b",
             "start": "18:05",
             "end": "19:25"
         },
         {
-            "type": "goods",
+            "type": "tokuten",
             "act": "PRSMIN",
             "stage_id": "goods_b",
             "start": "18:30",
@@ -392,7 +392,7 @@
             "description": "撮影可能エリアあり"
         },
         {
-            "type": "goods",
+            "type": "tokuten",
             "act": "Malcolm Mask McLaren",
             "stage_id": "goods_c",
             "start": "10:00",
@@ -400,7 +400,7 @@
             "description": "撮影可能エリアあり"
         },
         {
-            "type": "goods",
+            "type": "tokuten",
             "act": "ラナキュラ",
             "stage_id": "goods_c",
             "start": "11:40",
@@ -409,7 +409,7 @@
             "emoji": "📸"
         },
         {
-            "type": "goods",
+            "type": "tokuten",
             "act": "HIBANA",
             "stage_id": "goods_c",
             "start": "13:20",
@@ -418,7 +418,7 @@
             "emoji": "📸"
         },
         {
-            "type": "goods",
+            "type": "tokuten",
             "act": "Kolokol",
             "stage_id": "goods_c",
             "start": "15:05",
@@ -426,7 +426,7 @@
             "description": "撮影可能エリアあり"
         },
         {
-            "type": "goods",
+            "type": "tokuten",
             "act": "Ringwanderung",
             "stage_id": "goods_c",
             "start": "16:45",
@@ -434,7 +434,7 @@
             "emoji": "📸"
         },
         {
-            "type": "goods",
+            "type": "tokuten",
             "act": "アンスリューム",
             "stage_id": "goods_c",
             "start": "18:30",
@@ -442,7 +442,7 @@
             "description": "撮影可能エリアあり"
         },
         {
-            "type": "goods",
+            "type": "tokuten",
             "act": "FULIT BOX",
             "stage_id": "goods_d",
             "start": "10:25",
@@ -450,7 +450,7 @@
             "description": "撮影可能エリアあり"
         },
         {
-            "type": "goods",
+            "type": "tokuten",
             "act": "#よーよーよー",
             "stage_id": "goods_d",
             "start": "12:05",
@@ -458,28 +458,28 @@
             "description": "撮影可能エリアあり"
         },
         {
-            "type": "goods",
+            "type": "tokuten",
             "act": "ハルニジョン",
             "stage_id": "goods_d",
             "start": "13:45",
             "end": "15:05"
         },
         {
-            "type": "goods",
+            "type": "tokuten",
             "act": "YOLOZ",
             "stage_id": "goods_d",
             "start": "15:30",
             "end": "16:50"
         },
         {
-            "type": "goods",
+            "type": "tokuten",
             "act": "THE ORCHESTRA TOKYO",
             "stage_id": "goods_d",
             "start": "17:10",
             "end": "18:30"
         },
         {
-            "type": "goods",
+            "type": "tokuten",
             "act": "ルルネージュ",
             "stage_id": "goods_d",
             "start": "18:55",
