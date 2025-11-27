@@ -1,9 +1,9 @@
 [
-    {
-        "event_id": "2024-12-25_i_winter-live",
-        "event_name": "ウィンターライブ2024",
-        "date": "2024-12-25",
-        "venue": "東京ドーム",
-        "path": "/events/2024/2024-12-25_i_winter-live.json"
-    }
+  {
+    "event_id": "2024-12-25_i_winter-live",
+    "event_name": "ウィンターライブ2024",
+    "date": "2024-12-25",
+    "venue": "東京ドーム",
+    "path": "/events/2024/2024-12-25_i_winter-live.json"
+  }
 ]

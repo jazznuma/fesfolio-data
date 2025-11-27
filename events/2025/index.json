@@ -1,65 +1,65 @@
 [
-    {
-        "event_id": "2025-03-10_i_spring-idol-fes",
-        "event_name": "春のアイドルフェス2025",
-        "date": "2025-03-10",
-        "venue": "渋谷O-EAST",
-        "path": "/events/2025/2025-03-10_i_spring-idol-fes.json"
-    },
-    {
-        "event_id": "2025-04-15_i_rock-night",
-        "event_name": "ロックナイト2025",
-        "date": "2025-04-15",
-        "venue": "新宿LOFT",
-        "path": "/events/2025/2025-04-15_i_rock-night.json"
-    },
-    {
-        "event_id": "2025-05-20_i_summer-festival",
-        "event_name": "サマーフェスティバル2025",
-        "date": "2025-05-20",
-        "venue": "横浜アリーナ",
-        "path": "/events/2025/2025-05-20_i_summer-festival.json"
-    },
-    {
-        "event_id": "2025-06-15_i_rainy-season-fest",
-        "event_name": "梅雨フェス2025",
-        "date": "2025-06-15",
-        "venue": "大阪城ホール",
-        "path": "/events/2025/2025-06-15_i_rainy-season-fest.json"
-    },
-    {
-        "event_id": "2025-08-10_i_all-day-mega-fest",
-        "event_name": "オールデイメガフェス2025",
-        "date": "2025-08-10",
-        "venue": "幕張メッセ",
-        "path": "/events/2025/2025-08-10_i_all-day-mega-fest.json"
-    },
-    {
-        "event_id": "2025-09-23_i_autumn-festival",
-        "event_name": "オータムフェスティバル2025",
-        "date": "2025-09-23",
-        "venue": "さいたまスーパーアリーナ",
-        "path": "/events/2025/2025-09-23_i_autumn-festival.json"
-    },
-    {
-        "event_id": "2025-11-29_i_spa-fes",
-        "event_name": "SPA!FES2025",
-        "date": "2025-11-29",
-        "venue": "会場未定",
-        "path": "/events/2025/2025-11-29_i_spa-fes.json"
-    },
-    {
-        "event_id": "2025-12-01_i_japan-idol-super-live",
-        "event_name": "JAPAN IDOL SUPER LIVE",
-        "date": "2025-12-01",
-        "venue": "会場未定",
-        "path": "/events/2025/2025-12-01_i_japan-idol-super-live.json"
-    },
-    {
-        "event_id": "2025-12-07_i_idol-koshien",
-        "event_name": "アイドル⚾甲子園⚾ in KANDA SQUARE HALL",
-        "date": "2025-12-07",
-        "venue": "KANDA SQUARE HALL",
-        "path": "/events/2025/2025-12-07_i_idol-koshien.json"
-    }
+  {
+    "event_id": "2025-03-10_i_spring-idol-fes",
+    "event_name": "春のアイドルフェス2025",
+    "date": "2025-03-10",
+    "venue": "渋谷O-EAST",
+    "path": "/events/2025/2025-03-10_i_spring-idol-fes.json"
+  },
+  {
+    "event_id": "2025-04-15_i_rock-night",
+    "event_name": "ロックナイト2025",
+    "date": "2025-04-15",
+    "venue": "新宿LOFT",
+    "path": "/events/2025/2025-04-15_i_rock-night.json"
+  },
+  {
+    "event_id": "2025-05-20_i_summer-festival",
+    "event_name": "サマーフェスティバル2025",
+    "date": "2025-05-20",
+    "venue": "横浜アリーナ",
+    "path": "/events/2025/2025-05-20_i_summer-festival.json"
+  },
+  {
+    "event_id": "2025-06-15_i_rainy-season-fest",
+    "event_name": "梅雨フェス2025",
+    "date": "2025-06-15",
+    "venue": "大阪城ホール",
+    "path": "/events/2025/2025-06-15_i_rainy-season-fest.json"
+  },
+  {
+    "event_id": "2025-08-10_i_all-day-mega-fest",
+    "event_name": "オールデイメガフェス2025",
+    "date": "2025-08-10",
+    "venue": "幕張メッセ",
+    "path": "/events/2025/2025-08-10_i_all-day-mega-fest.json"
+  },
+  {
+    "event_id": "2025-09-23_i_autumn-festival",
+    "event_name": "オータムフェスティバル2025",
+    "date": "2025-09-23",
+    "venue": "さいたまスーパーアリーナ",
+    "path": "/events/2025/2025-09-23_i_autumn-festival.json"
+  },
+  {
+    "event_id": "2025-11-29_i_spa-fes",
+    "event_name": "SPA!FES2025",
+    "date": "2025-11-29",
+    "venue": "Spotify O-WEST / duo MUSIC EXCHANGE / SHIBUYA RING",
+    "path": "/events/2025/2025-11-29_i_spa-fes.json"
+  },
+  {
+    "event_id": "2025-12-01_i_japan-idol-super-live",
+    "event_name": "JAPAN IDOL SUPER LIVE",
+    "date": "2025-12-01",
+    "venue": "EX THEATER ROPPONGI",
+    "path": "/events/2025/2025-12-01_i_japan-idol-super-live.json"
+  },
+  {
+    "event_id": "2025-12-07_i_idol-koshien",
+    "event_name": "アイドル⚾甲子園⚾ in KANDA SQUARE HALL",
+    "date": "2025-12-07",
+    "venue": "KANDA SQUARE HALL",
+    "path": "/events/2025/2025-12-07_i_idol-koshien.json"
+  }
 ]
