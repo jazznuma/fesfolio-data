@@ -2,10 +2,10 @@
     "event_id": "2025-11-29_i_spa-fes",
     "event_name": "SPA!FES2025",
     "date": "2025-11-29",
-    "venue": "会場未定",
+    "venue": "Spotify O-WEST / duo MUSIC EXCHANGE / SHIBUYA RING",
     "open_time": "11:00",
     "start_time": "11:45",
-    "ticket_url": "https://example.com/ticket/spa-fes",
+    "ticket_url": "https://ticketvillage.jp/events/13577",
     "stages": [
         {
             "stage_id": "spotify_o_west",
@@ -546,6 +546,6 @@
             "description": "撮影可能エリアあり"
         }
     ],
-    "description": "イベントの補足情報です。\n詳細はこちら: https://example.com/info",
-    "official_url": "https://example.com"
+    "description": "",
+    "official_url": ""
 }

@@ -2,10 +2,10 @@
     "event_id": "2025-12-01_i_japan-idol-super-live",
     "event_name": "JAPAN IDOL SUPER LIVE",
     "date": "2025-12-01",
-    "venue": "会場未定",
+    "venue": "EX THEATER ROPPONGI",
     "open_time": "09:20",
     "start_time": "09:45",
-    "ticket_url": "https://example.com/ticket/japan-idol-super-live",
+    "ticket_url": "https://ticketdive.com/event/JAPANIDOL2025ULTRAFESROPPONGI",
     "stages": [
         {
             "stage_id": "main",
@@ -563,6 +563,6 @@
             "description": "撮影可能エリアあり"
         }
     ],
-    "description": "イベントの補足情報です。\n詳細はこちら: https://example.com/info",
-    "official_url": "https://example.com"
+    "description": "",
+    "official_url": ""
 }

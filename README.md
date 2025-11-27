@@ -109,11 +109,6 @@ fesfolio-data/
 
 このリポジトリのデータは、FesFolioアプリケーションでの使用を目的としています。
 
-## 🔗 関連リンク
-
-- [FesFolio アプリケーション](https://github.com/yourusername/fesfolio)
-- [公式サイト](https://fesfolio.example.com)
-
 ---
 
 **質問や提案がある場合は、Issueを作成してください！**

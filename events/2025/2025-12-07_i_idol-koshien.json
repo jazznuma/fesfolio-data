@@ -5,7 +5,7 @@
     "venue": "KANDA SQUARE HALL",
     "open_time": "08:15",
     "start_time": "08:30",
-    "ticket_url": "https://example.com/ticket/idol-koshien",
+    "ticket_url": "https://t.livepocket.jp/e/idolkoushien_1207",
     "stages": [
         {
             "stage_id": "main",
@@ -487,6 +487,6 @@
             "emoji": "📸"
         }
     ],
-    "description": "イベントの補足情報です。\n詳細はこちら: https://example.com/info",
-    "official_url": "https://example.com"
+    "description": "",
+    "official_url": "https://x.com/idol_koushien/status/1993635856893305228"
 }
