@@ -8,15 +8,20 @@ FesFolioで使用するイベントデータのリポジトリです。フェス
 fesfolio-data/
 ├── events/           # イベントデータ（年ごとにディレクトリ分け）
 │   ├── 2024/
+│   │   ├── index.json (自動生成)
+│   │   └── 2024-xx-xx_x_event.json
 │   ├── 2025/
-│   └── 2026/
+│   │   ├── index.json (自動生成)
+│   │   └── 2025-xx-xx_x_event.json
+│   └── index.json (自動生成)
 ├── schemas/          # JSONスキーマ定義
 │   └── event.schema.json
 ├── sample/           # サンプルファイル
 │   └── sample-event.json
 └── .github/          # GitHub Actions設定
     ├── workflows/
-    │   └── validate_json.yml
+    │   ├── validate_json.yml
+    │   └── update_indices.yml
     └── PULL_REQUEST_TEMPLATE.md
 ```
 
@@ -67,7 +72,18 @@ fesfolio-data/
 
 プルリクエスト作成時、自動的にJSON構造の検証が実行されます。
 
-## ✅ バリデーション
+## 🤖 自動処理
+
+### インデックスファイルの自動更新
+
+イベントJSONファイルがmainブランチにマージされると、GitHub Actionsが自動的に以下のファイルを生成・更新します:
+
+- `events/index.json`: 利用可能な年のリスト
+- `events/YYYY/index.json`: 各年のイベント一覧
+
+**手動でインデックスファイルを編集する必要はありません。**
+
+### バリデーション
 
 プルリクエスト時に以下のチェックが自動実行されます:
 
@@ -87,10 +103,16 @@ fesfolio-data/
 1. サンプルファイルを参考にする
 2. 正確な情報を記載する
 3. プルリクエストテンプレートのチェックリストを確認する
+4. **インデックスファイル（`index.json`）は編集しない**（自動生成されます）
 
 ## 📝 ライセンス
 
 このリポジトリのデータは、FesFolioアプリケーションでの使用を目的としています。
+
+## 🔗 関連リンク
+
+- [FesFolio アプリケーション](https://github.com/yourusername/fesfolio)
+- [公式サイト](https://fesfolio.example.com)
 
 ---
 
