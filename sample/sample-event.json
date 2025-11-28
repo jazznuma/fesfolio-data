@@ -1,41 +1,65 @@
 {
-    "event_id": "2025-12-07_i_idol-koshien",
-    "event_name": "アイドル⚾甲子園⚾ in KANDA SQUARE HALL",
-    "date": "2025-12-07",
+    "event_id": "2025-12-31_i_idol-nenmatsu-fes",
+    "event_name": "2025アイドル年末フェス in KANDA SQUARE HALL",
+    "date": "2025-12-31",
     "venue": "KANDA SQUARE HALL",
     "open_time": "10:00",
     "start_time": "10:30",
+    "ticket_url": "https://example.com/",
     "stages": [
         {
             "stage_id": "main",
             "stage_name": "メインステージ",
-            "stage_description": "メインステージでの出演"
+            "stage_description": "メインステージの補足"
+        },
+        {
+            "stage_id": "goods_a",
+            "stage_name": "物販A",
+            "description": "物販エリアA"
         }
     ],
     "timetable": [
         {
+            "type": "live",
             "stage_id": "main",
             "start": "10:30",
             "end": "10:45",
-            "act": "オープニングMC",
-            "type": "mc"
+            "act": "オープニングMC"
         },
         {
+            "type": "live",
             "stage_id": "main",
             "start": "10:45",
-            "end": "11:00",
+            "end": "11:30",
             "act": "サンプルアーティストA",
-            "type": "artist",
             "description": "1stステージ",
             "emoji": "🎤"
         },
         {
+            "type": "live",
             "stage_id": "main",
-            "start": "11:00",
-            "end": "11:15",
+            "start": "11:30",
+            "end": "12:15",
             "act": "サンプルアーティストB",
-            "type": "artist",
-            "emoji": "🎸"
+            "emoji": "📸"
+        },
+        {
+            "type": "tokuten",
+            "act": "サンプルアーティストA",
+            "stage_id": "goods_a",
+            "start": "11:30",
+            "end": "12:45",
+            "description": ""
+        },
+        {
+            "type": "tokuten",
+            "act": "サンプルアーティストB",
+            "stage_id": "goods_a",
+            "start": "12:45",
+            "end": "14:00",
+            "emoji": ""
         }
-    ]
+    ],
+    "description": "2025年の締めくくりにふさわしいアイドル年末フェスを開催！\n詳細情報は公式サイトをご覧ください: https://example.com/",
+    "official_url": "https://example.com/"
 }
