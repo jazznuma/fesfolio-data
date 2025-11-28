@@ -30,7 +30,7 @@
             "stage_id": "spotify_o_west",
             "start": "11:50",
             "end": "12:15",
-            "description": "撮影可能エリアあり"
+            "description": ""
         },
         {
             "type": "live",
@@ -38,7 +38,7 @@
             "stage_id": "spotify_o_west",
             "start": "12:15",
             "end": "12:40",
-            "description": "撮影可能エリアあり"
+            "description": ""
         },
         {
             "type": "live",
@@ -67,7 +67,7 @@
             "stage_id": "spotify_o_west",
             "start": "14:00",
             "end": "14:25",
-            "emoji": "📸"
+            "emoji": ""
         },
         {
             "type": "live",
@@ -75,7 +75,7 @@
             "stage_id": "spotify_o_west",
             "start": "14:25",
             "end": "14:50",
-            "emoji": "📸"
+            "emoji": ""
         },
         {
             "type": "live",
@@ -90,7 +90,7 @@
             "stage_id": "spotify_o_west",
             "start": "15:15",
             "end": "15:40",
-            "emoji": "📸"
+            "emoji": ""
         },
         {
             "type": "live",
@@ -112,23 +112,23 @@
             "stage_id": "spotify_o_west",
             "start": "16:40",
             "end": "17:05",
-            "emoji": "📸"
+            "emoji": ""
         },
         {
             "type": "live",
-            "act": "がちゃ星とステラ",
+            "act": "かすみ星とステラ",
             "stage_id": "spotify_o_west",
             "start": "17:05",
             "end": "17:30",
-            "description": "撮影可能エリアあり"
+            "description": ""
         },
         {
             "type": "live",
-            "act": "まえ SPA!",
+            "act": "ミス SPA!",
             "stage_id": "spotify_o_west",
             "start": "17:30",
             "end": "17:55",
-            "description": "撮影可能エリアあり"
+            "description": ""
         },
         {
             "type": "live",
@@ -136,15 +136,15 @@
             "stage_id": "spotify_o_west",
             "start": "17:55",
             "end": "18:20",
-            "emoji": "📸"
+            "emoji": ""
         },
         {
             "type": "live",
-            "act": "SPA! 銀面 & メインステージ争奪",
+            "act": "SPA! 誌面 & メインステージ争奪",
             "stage_id": "spotify_o_west",
             "start": "18:25",
             "end": "18:45",
-            "emoji": "📸"
+            "emoji": ""
         },
         {
             "type": "live",
@@ -159,7 +159,7 @@
             "stage_id": "spotify_o_west",
             "start": "19:10",
             "end": "19:35",
-            "description": "撮影可能エリアあり"
+            "description": ""
         },
         {
             "type": "live",
@@ -167,7 +167,7 @@
             "stage_id": "spotify_o_west",
             "start": "19:35",
             "end": "20:00",
-            "description": "撮影可能エリアあり"
+            "description": ""
         },
         {
             "type": "live",
@@ -182,7 +182,7 @@
             "stage_id": "spotify_o_west",
             "start": "20:25",
             "end": "20:50",
-            "description": "撮影可能エリアあり"
+            "description": ""
         },
         {
             "type": "live",
@@ -197,15 +197,15 @@
             "stage_id": "duo_music_exchange",
             "start": "12:05",
             "end": "12:25",
-            "description": "撮影可能エリアあり"
+            "description": ""
         },
         {
             "type": "live",
-            "act": "Depresscode",
+            "act": "MyDresscode",
             "stage_id": "duo_music_exchange",
             "start": "12:25",
             "end": "12:45",
-            "emoji": "📸"
+            "emoji": ""
         },
         {
             "type": "live",
@@ -223,11 +223,11 @@
         },
         {
             "type": "live",
-            "act": "ゆめめのうさぎ",
+            "act": "ゆめのうさぎ",
             "stage_id": "duo_music_exchange",
             "start": "13:25",
             "end": "13:45",
-            "emoji": "📸"
+            "emoji": ""
         },
         {
             "type": "live",
@@ -235,7 +235,7 @@
             "stage_id": "duo_music_exchange",
             "start": "13:45",
             "end": "14:05",
-            "description": "撮影可能エリアあり"
+            "description": ""
         },
         {
             "type": "live",
@@ -243,15 +243,15 @@
             "stage_id": "duo_music_exchange",
             "start": "14:05",
             "end": "14:25",
-            "description": "撮影可能エリアあり"
+            "description": ""
         },
         {
             "type": "live",
-            "act": "ひなた★DOLL",
+            "act": "愛乙女★DOLL",
             "stage_id": "duo_music_exchange",
             "start": "14:25",
             "end": "14:45",
-            "description": "撮影可能エリアあり"
+            "description": ""
         },
         {
             "type": "live",
@@ -259,7 +259,7 @@
             "stage_id": "duo_music_exchange",
             "start": "14:50",
             "end": "15:15",
-            "emoji": "📸"
+            "emoji": ""
         },
         {
             "type": "live",
@@ -274,8 +274,8 @@
             "stage_id": "duo_music_exchange",
             "start": "15:40",
             "end": "16:05",
-            "description": "撮影可能エリアあり",
-            "emoji": "📸"
+            "description": "",
+            "emoji": ""
         },
         {
             "type": "live",
@@ -290,7 +290,7 @@
             "stage_id": "duo_music_exchange",
             "start": "16:30",
             "end": "16:55",
-            "emoji": "📸"
+            "emoji": ""
         },
         {
             "type": "live",
@@ -301,14 +301,14 @@
         },
         {
             "type": "live",
-            "act": "キンググリ",
+            "act": "キングサリ",
             "stage_id": "duo_music_exchange",
             "start": "17:30",
             "end": "17:55"
         },
         {
             "type": "live",
-            "act": "ここなつきゅおん！",
+            "act": "こみっきゅおん！",
             "stage_id": "duo_music_exchange",
             "start": "17:55",
             "end": "18:20"
@@ -326,7 +326,7 @@
             "stage_id": "duo_music_exchange",
             "start": "18:50",
             "end": "19:15",
-            "emoji": "📸"
+            "emoji": ""
         },
         {
             "type": "live",
@@ -334,7 +334,7 @@
             "stage_id": "duo_music_exchange",
             "start": "19:15",
             "end": "19:40",
-            "description": "撮影可能エリアあり"
+            "description": ""
         },
         {
             "type": "live",
@@ -345,11 +345,11 @@
         },
         {
             "type": "live",
-            "act": "ハルニジョン",
+            "act": "ハルニシオン",
             "stage_id": "duo_music_exchange",
             "start": "20:05",
             "end": "20:30",
-            "emoji": "📸"
+            "emoji": ""
         },
         {
             "type": "live",
@@ -357,7 +357,7 @@
             "stage_id": "ring",
             "start": "11:45",
             "end": "12:05",
-            "description": "撮影可能エリアあり"
+            "description": ""
         },
         {
             "type": "live",
@@ -372,22 +372,29 @@
             "stage_id": "ring",
             "start": "12:25",
             "end": "12:45",
-            "description": "撮影可能エリアあり"
+            "description": ""
         },
         {
             "type": "live",
-            "act": "Once Upon a Time -天-",
+            "act": "Once Upon a Time",
             "stage_id": "ring",
             "start": "12:45",
             "end": "13:05"
         },
         {
             "type": "live",
-            "act": "Rin-Rapi",
+            "act": "- 天 -",
+            "stage_id": "ring",
+            "start": "13:05",
+            "end": "13:25"
+        },
+        {
+            "type": "live",
+            "act": "Chu-Hapi",
             "stage_id": "ring",
             "start": "13:30",
             "end": "13:50",
-            "description": "撮影可能エリアあり"
+            "description": ""
         },
         {
             "type": "live",
@@ -395,8 +402,8 @@
             "stage_id": "ring",
             "start": "13:50",
             "end": "14:10",
-            "description": "撮影可能エリアあり",
-            "emoji": "📸"
+            "description": "",
+            "emoji": ""
         },
         {
             "type": "live",
@@ -404,11 +411,11 @@
             "stage_id": "ring",
             "start": "14:10",
             "end": "14:30",
-            "emoji": "📸"
+            "emoji": ""
         },
         {
             "type": "live",
-            "act": "SAKEBE",
+            "act": "SHAKEBE",
             "stage_id": "ring",
             "start": "14:30",
             "end": "14:50"
@@ -426,7 +433,7 @@
             "stage_id": "ring",
             "start": "15:15",
             "end": "15:35",
-            "description": "撮影可能エリアあり"
+            "description": ""
         },
         {
             "type": "live",
@@ -434,18 +441,18 @@
             "stage_id": "ring",
             "start": "15:35",
             "end": "15:55",
-            "emoji": "📸"
+            "emoji": ""
         },
         {
             "type": "live",
-            "act": "Ecriture",
+            "act": "EcruRare",
             "stage_id": "ring",
             "start": "15:55",
             "end": "16:15"
         },
         {
             "type": "live",
-            "act": "ちゃーぽぽしゅ",
+            "act": "ちゃーむぽしゅ",
             "stage_id": "ring",
             "start": "16:15",
             "end": "16:35"
@@ -456,15 +463,15 @@
             "stage_id": "ring",
             "start": "16:35",
             "end": "16:55",
-            "description": "撮影可能エリアあり"
+            "description": ""
         },
         {
             "type": "live",
-            "act": "As a Cult Powernation",
+            "act": "As a Cutie Pomeranian",
             "stage_id": "ring",
             "start": "17:00",
             "end": "17:20",
-            "description": "撮影可能エリアあり"
+            "description": ""
         },
         {
             "type": "live",
@@ -472,20 +479,20 @@
             "stage_id": "ring",
             "start": "17:20",
             "end": "17:40",
-            "description": "撮影可能エリアあり"
+            "description": ""
         },
         {
             "type": "live",
-            "act": "月に願掛を叶えた少女たちへ〜特別号外〜",
+            "act": "月に足跡を残した少女たちは一体何を見たのか…",
             "stage_id": "ring",
             "start": "17:40",
             "end": "18:00",
-            "description": "撮影可能エリアあり",
-            "emoji": "📸"
+            "description": "",
+            "emoji": ""
         },
         {
             "type": "live",
-            "act": "KAMIITACI",
+            "act": "KAMAITACI",
             "stage_id": "ring",
             "start": "18:00",
             "end": "18:20"
@@ -499,11 +506,11 @@
         },
         {
             "type": "live",
-            "act": "ROOKEY♡♡ROOKEYS",
+            "act": "ROOKEY♡ROOKEYS",
             "stage_id": "ring",
             "start": "18:45",
             "end": "19:05",
-            "description": "撮影可能エリアあり"
+            "description": ""
         },
         {
             "type": "live",
@@ -511,23 +518,23 @@
             "stage_id": "ring",
             "start": "19:05",
             "end": "19:25",
-            "description": "撮影可能エリアあり"
+            "description": ""
         },
         {
             "type": "live",
-            "act": "ルミナマジック",
+            "act": "ルージュブック",
             "stage_id": "ring",
             "start": "19:25",
             "end": "19:45",
-            "emoji": "📸"
+            "emoji": ""
         },
         {
             "type": "live",
-            "act": "アキンプ project",
+            "act": "アキシブ project",
             "stage_id": "ring",
             "start": "19:45",
             "end": "20:05",
-            "description": "撮影可能エリアあり"
+            "description": ""
         },
         {
             "type": "live",
@@ -535,7 +542,7 @@
             "stage_id": "ring",
             "start": "20:05",
             "end": "20:25",
-            "emoji": "📸"
+            "emoji": ""
         },
         {
             "type": "live",
@@ -543,9 +550,9 @@
             "stage_id": "ring",
             "start": "20:25",
             "end": "20:45",
-            "description": "撮影可能エリアあり"
+            "description": ""
         }
     ],
     "description": "",
-    "official_url": ""
+    "official_url": "https://nikkan-spa.jp/2024903"
 }

@@ -47,8 +47,8 @@
             "stage_id": "main",
             "start": "08:50",
             "end": "09:15",
-            "description": "撮影可能エリアあり",
-            "emoji": "📸"
+            "description": "",
+            "emoji": ""
         },
         {
             "type": "live",
@@ -70,8 +70,8 @@
             "stage_id": "main",
             "start": "10:05",
             "end": "10:30",
-            "description": "撮影可能エリアあり",
-            "emoji": "📸"
+            "description": "",
+            "emoji": ""
         },
         {
             "type": "live",
@@ -79,8 +79,8 @@
             "stage_id": "main",
             "start": "10:30",
             "end": "10:55",
-            "description": "撮影可能エリアあり",
-            "emoji": "📸"
+            "description": "",
+            "emoji": ""
         },
         {
             "type": "live",
@@ -102,7 +102,7 @@
             "stage_id": "main",
             "start": "11:45",
             "end": "12:10",
-            "description": "撮影可能エリアあり"
+            "description": ""
         },
         {
             "type": "live",
@@ -110,8 +110,8 @@
             "stage_id": "main",
             "start": "12:10",
             "end": "12:35",
-            "description": "撮影可能エリアあり",
-            "emoji": "📸"
+            "description": "",
+            "emoji": ""
         },
         {
             "type": "live",
@@ -119,7 +119,7 @@
             "stage_id": "main",
             "start": "12:35",
             "end": "13:00",
-            "description": "撮影可能エリアあり"
+            "description": ""
         },
         {
             "type": "live",
@@ -130,7 +130,7 @@
         },
         {
             "type": "live",
-            "act": "ハルニジョン",
+            "act": "ハルニシオン",
             "stage_id": "main",
             "start": "13:30",
             "end": "13:55"
@@ -148,8 +148,8 @@
             "stage_id": "main",
             "start": "14:20",
             "end": "14:45",
-            "description": "撮影可能エリアあり",
-            "emoji": "📸"
+            "description": "",
+            "emoji": ""
         },
         {
             "type": "live",
@@ -157,8 +157,8 @@
             "stage_id": "main",
             "start": "14:45",
             "end": "15:10",
-            "description": "撮影可能エリアあり",
-            "emoji": "📸"
+            "description": "",
+            "emoji": ""
         },
         {
             "type": "live",
@@ -180,7 +180,7 @@
             "stage_id": "main",
             "start": "16:00",
             "end": "16:25",
-            "description": "撮影可能エリアあり"
+            "description": ""
         },
         {
             "type": "live",
@@ -188,11 +188,11 @@
             "stage_id": "main",
             "start": "16:25",
             "end": "16:50",
-            "description": "撮影可能エリアあり"
+            "description": ""
         },
         {
             "type": "live",
-            "act": "シェメイ",
+            "act": "ジエメイ",
             "stage_id": "main",
             "start": "16:55",
             "end": "17:20"
@@ -203,7 +203,7 @@
             "stage_id": "main",
             "start": "17:20",
             "end": "17:45",
-            "description": "撮影可能エリアあり"
+            "description": ""
         },
         {
             "type": "live",
@@ -211,7 +211,7 @@
             "stage_id": "main",
             "start": "17:45",
             "end": "18:10",
-            "emoji": "📸"
+            "emoji": ""
         },
         {
             "type": "live",
@@ -219,7 +219,7 @@
             "stage_id": "main",
             "start": "18:10",
             "end": "18:35",
-            "description": "撮影可能エリアあり"
+            "description": ""
         },
         {
             "type": "live",
@@ -227,7 +227,7 @@
             "stage_id": "main",
             "start": "18:35",
             "end": "19:00",
-            "description": "撮影可能エリアあり"
+            "description": ""
         },
         {
             "type": "live",
@@ -238,11 +238,11 @@
         },
         {
             "type": "live",
-            "act": "衝星とカラテア",
+            "act": "衛星とカラテア",
             "stage_id": "main",
             "start": "19:30",
             "end": "19:55",
-            "description": "撮影可能エリアあり"
+            "description": ""
         },
         {
             "type": "live",
@@ -250,7 +250,7 @@
             "stage_id": "main",
             "start": "19:55",
             "end": "20:20",
-            "description": "撮影可能エリアあり"
+            "description": ""
         },
         {
             "type": "live",
@@ -258,7 +258,7 @@
             "stage_id": "main",
             "start": "20:20",
             "end": "20:45",
-            "description": "撮影可能エリアあり"
+            "description": ""
         },
         {
             "type": "live",
@@ -266,8 +266,8 @@
             "stage_id": "main",
             "start": "20:45",
             "end": "21:10",
-            "description": "撮影可能エリアあり",
-            "emoji": "📸"
+            "description": "",
+            "emoji": ""
         },
         {
             "type": "tokuten",
@@ -275,7 +275,7 @@
             "stage_id": "main",
             "start": "21:10",
             "end": "22:30",
-            "description": "撮影可能エリアあり"
+            "description": ""
         },
         {
             "type": "tokuten",
@@ -283,7 +283,7 @@
             "stage_id": "goods_a",
             "start": "09:10",
             "end": "10:30",
-            "description": "撮影可能エリアあり"
+            "description": ""
         },
         {
             "type": "tokuten",
@@ -291,19 +291,19 @@
             "stage_id": "goods_a",
             "start": "10:50",
             "end": "12:10",
-            "emoji": "📸"
+            "emoji": ""
         },
         {
             "type": "tokuten",
-            "act": "Maison de Queen",
+            "act": "まねきケチャ",
             "stage_id": "goods_a",
             "start": "12:30",
             "end": "13:50",
-            "emoji": "📸"
+            "emoji": ""
         },
         {
             "type": "tokuten",
-            "act": "ハルニジョン",
+            "act": "ハルニシオン",
             "stage_id": "goods_a",
             "start": "14:15",
             "end": "15:35"
@@ -317,7 +317,7 @@
         },
         {
             "type": "tokuten",
-            "act": "シェメイ",
+            "act": "ジエメイ",
             "stage_id": "goods_a",
             "start": "17:40",
             "end": "19:00"
@@ -328,14 +328,6 @@
             "stage_id": "goods_a",
             "start": "19:20",
             "end": "20:40"
-        },
-        {
-            "type": "tokuten",
-            "act": "がすみ草とステラ",
-            "stage_id": "goods_a",
-            "start": "19:45",
-            "end": "21:05",
-            "emoji": "📸"
         },
         {
             "type": "tokuten",
@@ -350,7 +342,7 @@
             "stage_id": "goods_b",
             "start": "11:15",
             "end": "12:35",
-            "emoji": "📸"
+            "emoji": ""
         },
         {
             "type": "tokuten",
@@ -358,8 +350,8 @@
             "stage_id": "goods_b",
             "start": "12:55",
             "end": "14:15",
-            "description": "撮影可能エリアあり",
-            "emoji": "📸"
+            "description": "",
+            "emoji": ""
         },
         {
             "type": "tokuten",
@@ -374,7 +366,7 @@
             "stage_id": "goods_b",
             "start": "16:20",
             "end": "17:40",
-            "description": "撮影可能エリアあり"
+            "description": ""
         },
         {
             "type": "tokuten",
@@ -389,7 +381,15 @@
             "stage_id": "goods_b",
             "start": "18:30",
             "end": "19:50",
-            "description": "撮影可能エリアあり"
+            "description": ""
+        },
+        {
+            "type": "tokuten",
+            "act": "かすみ草とステラ",
+            "stage_id": "goods_b",
+            "start": "19:45",
+            "end": "21:05",
+            "emoji": ""
         },
         {
             "type": "tokuten",
@@ -397,7 +397,7 @@
             "stage_id": "goods_c",
             "start": "10:00",
             "end": "11:20",
-            "description": "撮影可能エリアあり"
+            "description": ""
         },
         {
             "type": "tokuten",
@@ -405,17 +405,17 @@
             "stage_id": "goods_c",
             "start": "11:40",
             "end": "13:00",
-            "description": "撮影可能エリアあり",
-            "emoji": "📸"
+            "description": "",
+            "emoji": ""
         },
         {
             "type": "tokuten",
-            "act": "HIBANA",
+            "act": "Maison de Queen",
             "stage_id": "goods_c",
             "start": "13:20",
             "end": "14:40",
-            "description": "撮影可能エリアあり",
-            "emoji": "📸"
+            "description": "",
+            "emoji": ""
         },
         {
             "type": "tokuten",
@@ -423,7 +423,7 @@
             "stage_id": "goods_c",
             "start": "15:05",
             "end": "16:25",
-            "description": "撮影可能エリアあり"
+            "description": ""
         },
         {
             "type": "tokuten",
@@ -431,7 +431,7 @@
             "stage_id": "goods_c",
             "start": "16:45",
             "end": "18:05",
-            "emoji": "📸"
+            "emoji": ""
         },
         {
             "type": "tokuten",
@@ -439,7 +439,7 @@
             "stage_id": "goods_c",
             "start": "18:30",
             "end": "19:50",
-            "description": "撮影可能エリアあり"
+            "description": ""
         },
         {
             "type": "tokuten",
@@ -447,7 +447,7 @@
             "stage_id": "goods_d",
             "start": "10:25",
             "end": "11:45",
-            "description": "撮影可能エリアあり"
+            "description": ""
         },
         {
             "type": "tokuten",
@@ -455,11 +455,11 @@
             "stage_id": "goods_d",
             "start": "12:05",
             "end": "13:25",
-            "description": "撮影可能エリアあり"
+            "description": ""
         },
         {
             "type": "tokuten",
-            "act": "ハルニジョン",
+            "act": "HIBANA",
             "stage_id": "goods_d",
             "start": "13:45",
             "end": "15:05"
@@ -480,11 +480,11 @@
         },
         {
             "type": "tokuten",
-            "act": "ルルネージュ",
+            "act": "PRSMIN",
             "stage_id": "goods_d",
             "start": "18:55",
             "end": "20:15",
-            "emoji": "📸"
+            "emoji": ""
         }
     ],
     "description": "",
