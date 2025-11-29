@@ -1,0 +1,51 @@
+{
+  "event_id": "2025-12-14_i_hype-idol",
+  "event_name": "喰らい × HYPE IDOL!",
+  "date": "2025-12-14",
+  "venue": "代々木公園野外ステージ",
+  "open_time": "09:30",
+  "start_time": "10:00",
+  "ticket_url": "https://ticketdive.com/event/climaxhype_1214",
+  "stages": [
+    { "stage_id": "main", "stage_name": "メインステージ", "stage_description": "野外ステージ" },
+    { "stage_id": "goods_A", "stage_name": "物販 A" },
+    { "stage_id": "goods_B", "stage_name": "物販 B" },
+    { "stage_id": "goods_C", "stage_name": "物販 C" },
+    { "stage_id": "post_goods", "stage_name": "終演後物販" }
+  ],
+  "timetable": [
+    { "type": "live", "stage_id": "main", "start": "09:30", "end": "09:50", "act": "パラディーク" },
+    { "type": "live", "stage_id": "main", "start": "09:50", "end": "10:10", "act": "アルテミスの翼" },
+    { "type": "live", "stage_id": "main", "start": "10:10", "end": "10:30", "act": "ポンコツコンポ" },
+    { "type": "live", "stage_id": "main", "start": "10:30", "end": "10:50", "act": "Tohkei" },
+    { "type": "live", "stage_id": "main", "start": "10:55", "end": "11:20", "act": "Mirror,Mirror" },
+    { "type": "live", "stage_id": "main", "start": "11:20", "end": "11:45", "act": "アンスリューム" },
+    { "type": "live", "stage_id": "main", "start": "11:45", "end": "12:10", "act": "ドレスコード" },
+    { "type": "live", "stage_id": "main", "start": "12:10", "end": "12:35", "act": "カラフルスクリーム" },
+    { "type": "live", "stage_id": "main", "start": "12:40", "end": "13:05", "act": "衛星とカラテア" },
+    { "type": "live", "stage_id": "main", "start": "13:05", "end": "13:30", "act": "なみだ色の消しごむ" },
+    { "type": "live", "stage_id": "main", "start": "13:30", "end": "13:55", "act": "UtaGe!" },
+    { "type": "live", "stage_id": "main", "start": "13:55", "end": "14:20", "act": "ドラマチックレコード" },
+    { "type": "live", "stage_id": "main", "start": "14:25", "end": "14:50", "act": "夜光性アミューズ" },
+    { "type": "live", "stage_id": "main", "start": "14:50", "end": "15:15", "act": "THE ORCHESTRA TOKYO" },
+    { "type": "live", "stage_id": "main", "start": "15:15", "end": "15:40", "act": "INUWASI" },
+
+    { "type": "goods", "stage_id": "goods_A", "start": "09:55", "end": "11:05", "act": "パラディーク" },
+    { "type": "goods", "stage_id": "goods_B", "start": "10:25", "end": "11:25", "act": "アルテミスの翼" },
+    { "type": "goods", "stage_id": "goods_C", "start": "10:35", "end": "11:45", "act": "ポンコツコンポ" },
+    { "type": "goods", "stage_id": "goods_A", "start": "11:10", "end": "12:20", "act": "Tohkei" },
+    { "type": "goods", "stage_id": "goods_B", "start": "11:30", "end": "12:40", "act": "Mirror,Mirror" },
+    { "type": "goods", "stage_id": "goods_C", "start": "11:50", "end": "13:00", "act": "アンスリューム" },
+    { "type": "goods", "stage_id": "goods_A", "start": "12:25", "end": "13:35", "act": "ドレスコード" },
+    { "type": "goods", "stage_id": "goods_B", "start": "12:45", "end": "13:55", "act": "カラフルスクリーム" },
+
+    { "type": "goods", "stage_id": "goods_C", "start": "13:10", "end": "14:20", "act": "衛星とカラテア" },
+    { "type": "goods", "stage_id": "goods_A", "start": "13:40", "end": "14:50", "act": "なみだ色の消しごむ" },
+    { "type": "goods", "stage_id": "goods_B", "start": "14:00", "end": "15:10", "act": "UtaGe!" },
+    { "type": "goods", "stage_id": "goods_C", "start": "14:25", "end": "15:35", "act": "ドラマチックレコード" },
+
+    { "type": "goods", "stage_id": "post_goods", "start": "15:50", "end": "17:00", "act": "夜光性アミューズ" },
+    { "type": "goods", "stage_id": "post_goods", "start": "15:50", "end": "17:00", "act": "THE ORCHESTRA TOKYO" },
+    { "type": "goods", "stage_id": "post_goods", "start": "15:50", "end": "17:00", "act": "INUWASI" }
+  ]
+}
