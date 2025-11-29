@@ -26,5 +26,12 @@
     "date": "2025-12-07",
     "venue": "KANDA SQUARE HALL",
     "path": "/events/2025/2025-12-07_i_idol-koshien.json"
+  },
+  {
+    "event_id": "2025-12-14_i_hype-idol",
+    "event_name": "喰らい × HYPE IDOL!",
+    "date": "2025-12-14",
+    "venue": "代々木公園野外ステージ",
+    "path": "/events/2025/2025-12-14_i_hype-idol.json"
   }
 ]
