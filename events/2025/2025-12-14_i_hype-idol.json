@@ -10,8 +10,7 @@
     { "stage_id": "main", "stage_name": "メインステージ", "stage_description": "野外ステージ" },
     { "stage_id": "goods_A", "stage_name": "物販 A" },
     { "stage_id": "goods_B", "stage_name": "物販 B" },
-    { "stage_id": "goods_C", "stage_name": "物販 C" },
-    { "stage_id": "post_goods", "stage_name": "終演後物販" }
+    { "stage_id": "goods_C", "stage_name": "物販 C" }
   ],
   "timetable": [
     { "type": "live", "stage_id": "main", "start": "09:30", "end": "09:50", "act": "パラディーク" },
@@ -29,6 +28,7 @@
     { "type": "live", "stage_id": "main", "start": "14:25", "end": "14:50", "act": "夜光性アミューズ" },
     { "type": "live", "stage_id": "main", "start": "14:50", "end": "15:15", "act": "THE ORCHESTRA TOKYO" },
     { "type": "live", "stage_id": "main", "start": "15:15", "end": "15:40", "act": "INUWASI" },
+    { "type": "live", "stage_id": "main", "start": "15:50", "end": "17:00", "act": "終演後物販", "description": "夜光性アミューズ/THE ORCHESTRA TOKYO/INUWASI" },
 
     { "type": "goods", "stage_id": "goods_A", "start": "09:55", "end": "11:05", "act": "パラディーク" },
     { "type": "goods", "stage_id": "goods_B", "start": "10:25", "end": "11:25", "act": "アルテミスの翼" },
@@ -42,10 +42,6 @@
     { "type": "goods", "stage_id": "goods_C", "start": "13:10", "end": "14:20", "act": "衛星とカラテア" },
     { "type": "goods", "stage_id": "goods_A", "start": "13:40", "end": "14:50", "act": "なみだ色の消しごむ" },
     { "type": "goods", "stage_id": "goods_B", "start": "14:00", "end": "15:10", "act": "UtaGe!" },
-    { "type": "goods", "stage_id": "goods_C", "start": "14:25", "end": "15:35", "act": "ドラマチックレコード" },
-
-    { "type": "goods", "stage_id": "post_goods", "start": "15:50", "end": "17:00", "act": "夜光性アミューズ" },
-    { "type": "goods", "stage_id": "post_goods", "start": "15:50", "end": "17:00", "act": "THE ORCHESTRA TOKYO" },
-    { "type": "goods", "stage_id": "post_goods", "start": "15:50", "end": "17:00", "act": "INUWASI" }
+    { "type": "goods", "stage_id": "goods_C", "start": "14:25", "end": "15:35", "act": "ドラマチックレコード" }
   ]
 }
