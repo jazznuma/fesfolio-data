@@ -1,31 +1,10 @@
 [
   {
-    "event_id": "2025-11-29_i_spa-fes",
-    "event_name": "SPA!FES2025",
-    "date": "2025-11-29",
-    "venue": "Spotify O-WEST / duo MUSIC EXCHANGE / SHIBUYA RING",
-    "path": "/events/2025/2025-11-29_i_spa-fes.json"
-  },
-  {
-    "event_id": "2025-11-29_i_tif-gakuensai",
-    "event_name": "TIF学園祭",
-    "date": "2025-11-29",
-    "venue": "ベルサール渋谷ガーデン",
-    "path": "/events/2025/2025-11-29_i_tif-gakuensai.json"
-  },
-  {
     "event_id": "2025-11-30_i_tif-gakuensai-day2",
     "event_name": "TIF学園祭 DAY2",
     "date": "2025-11-30",
     "venue": "ベルサール渋谷ガーデン",
     "path": "/events/2025/2025-11-30_i_tif-gakuensai-day2.json"
-  },
-  {
-    "event_id": "2025-12-01_i_japan-idol-super-live",
-    "event_name": "JAPAN IDOL SUPER LIVE",
-    "date": "2025-12-01",
-    "venue": "EX THEATER ROPPONGI",
-    "path": "/events/2025/2025-12-01_i_japan-idol-super-live.json"
   },
   {
     "event_id": "2025-12-07_i_idol-koshien",
