@@ -1,0 +1,492 @@
+{
+    "event_id": "2025-12-07_i_idol-koshien",
+    "event_name": "アイドル⚾甲子園⚾ in KANDA SQUARE HALL",
+    "date": "2025-12-07",
+    "venue": "KANDA SQUARE HALL",
+    "open_time": "08:15",
+    "start_time": "08:30",
+    "ticket_url": "https://example.com/ticket/idol-koshien",
+    "stages": [
+        {
+            "stage_id": "main",
+            "stage_name": "メインステージ",
+            "description": "メインステージ"
+        },
+        {
+            "stage_id": "goods_a",
+            "stage_name": "物販A",
+            "description": "物販エリアA"
+        },
+        {
+            "stage_id": "goods_b",
+            "stage_name": "物販B",
+            "description": "物販エリアB"
+        },
+        {
+            "stage_id": "goods_c",
+            "stage_name": "物販C",
+            "description": "物販エリアC"
+        },
+        {
+            "stage_id": "goods_d",
+            "stage_name": "物販D",
+            "description": "物販エリアD"
+        }
+    ],
+    "timetable": [
+        {
+            "type": "live",
+            "act": "Question.VI",
+            "stage_id": "main",
+            "start": "08:30",
+            "end": "08:50"
+        },
+        {
+            "type": "live",
+            "act": "アストレイル",
+            "stage_id": "main",
+            "start": "08:50",
+            "end": "09:15",
+            "description": "撮影可能エリアあり",
+            "emoji": "📸"
+        },
+        {
+            "type": "live",
+            "act": "Malcolm Mask McLaren",
+            "stage_id": "main",
+            "start": "09:15",
+            "end": "09:40"
+        },
+        {
+            "type": "live",
+            "act": "FULIT BOX",
+            "stage_id": "main",
+            "start": "09:40",
+            "end": "10:05"
+        },
+        {
+            "type": "live",
+            "act": "紫陽花は降らない",
+            "stage_id": "main",
+            "start": "10:05",
+            "end": "10:30",
+            "description": "撮影可能エリアあり",
+            "emoji": "📸"
+        },
+        {
+            "type": "live",
+            "act": "I MY ME MINE",
+            "stage_id": "main",
+            "start": "10:30",
+            "end": "10:55",
+            "description": "撮影可能エリアあり",
+            "emoji": "📸"
+        },
+        {
+            "type": "live",
+            "act": "ラナキュラ",
+            "stage_id": "main",
+            "start": "10:55",
+            "end": "11:20"
+        },
+        {
+            "type": "live",
+            "act": "#よーよーよー",
+            "stage_id": "main",
+            "start": "11:20",
+            "end": "11:45"
+        },
+        {
+            "type": "live",
+            "act": "まねきケチャ",
+            "stage_id": "main",
+            "start": "11:45",
+            "end": "12:10",
+            "description": "撮影可能エリアあり"
+        },
+        {
+            "type": "live",
+            "act": "RAViDAVi",
+            "stage_id": "main",
+            "start": "12:10",
+            "end": "12:35",
+            "description": "撮影可能エリアあり",
+            "emoji": "📸"
+        },
+        {
+            "type": "live",
+            "act": "Maison de Queen",
+            "stage_id": "main",
+            "start": "12:35",
+            "end": "13:00",
+            "description": "撮影可能エリアあり"
+        },
+        {
+            "type": "live",
+            "act": "HIBANA",
+            "stage_id": "main",
+            "start": "13:00",
+            "end": "13:25"
+        },
+        {
+            "type": "live",
+            "act": "ハルニジョン",
+            "stage_id": "main",
+            "start": "13:30",
+            "end": "13:55"
+        },
+        {
+            "type": "live",
+            "act": "MyDearDarlin'",
+            "stage_id": "main",
+            "start": "13:55",
+            "end": "14:20"
+        },
+        {
+            "type": "live",
+            "act": "Kolokol",
+            "stage_id": "main",
+            "start": "14:20",
+            "end": "14:45",
+            "description": "撮影可能エリアあり",
+            "emoji": "📸"
+        },
+        {
+            "type": "live",
+            "act": "YOLOZ",
+            "stage_id": "main",
+            "start": "14:45",
+            "end": "15:10",
+            "description": "撮影可能エリアあり",
+            "emoji": "📸"
+        },
+        {
+            "type": "live",
+            "act": "SITUASION",
+            "stage_id": "main",
+            "start": "15:10",
+            "end": "15:35"
+        },
+        {
+            "type": "live",
+            "act": "Mirror,Mirror",
+            "stage_id": "main",
+            "start": "15:35",
+            "end": "16:00"
+        },
+        {
+            "type": "live",
+            "act": "Ringwanderung",
+            "stage_id": "main",
+            "start": "16:00",
+            "end": "16:25",
+            "description": "撮影可能エリアあり"
+        },
+        {
+            "type": "live",
+            "act": "THE ORCHESTRA TOKYO",
+            "stage_id": "main",
+            "start": "16:25",
+            "end": "16:50",
+            "description": "撮影可能エリアあり"
+        },
+        {
+            "type": "live",
+            "act": "シェメイ",
+            "stage_id": "main",
+            "start": "16:55",
+            "end": "17:20"
+        },
+        {
+            "type": "live",
+            "act": "Tohkei",
+            "stage_id": "main",
+            "start": "17:20",
+            "end": "17:45",
+            "description": "撮影可能エリアあり"
+        },
+        {
+            "type": "live",
+            "act": "アンスリューム",
+            "stage_id": "main",
+            "start": "17:45",
+            "end": "18:10",
+            "emoji": "📸"
+        },
+        {
+            "type": "live",
+            "act": "PRSMIN",
+            "stage_id": "main",
+            "start": "18:10",
+            "end": "18:35",
+            "description": "撮影可能エリアあり"
+        },
+        {
+            "type": "live",
+            "act": "ルルネージュ",
+            "stage_id": "main",
+            "start": "18:35",
+            "end": "19:00",
+            "description": "撮影可能エリアあり"
+        },
+        {
+            "type": "live",
+            "act": "がすみ草とステラ",
+            "stage_id": "main",
+            "start": "19:00",
+            "end": "19:25"
+        },
+        {
+            "type": "live",
+            "act": "衝星とカラテア",
+            "stage_id": "main",
+            "start": "19:30",
+            "end": "19:55",
+            "description": "撮影可能エリアあり"
+        },
+        {
+            "type": "live",
+            "act": "ドラマチックレコード",
+            "stage_id": "main",
+            "start": "19:55",
+            "end": "20:20",
+            "description": "撮影可能エリアあり"
+        },
+        {
+            "type": "live",
+            "act": "#ハバハバハンビ",
+            "stage_id": "main",
+            "start": "20:20",
+            "end": "20:45",
+            "description": "撮影可能エリアあり"
+        },
+        {
+            "type": "live",
+            "act": "Merry BAD TUNE.",
+            "stage_id": "main",
+            "start": "20:45",
+            "end": "21:10",
+            "description": "撮影可能エリアあり",
+            "emoji": "📸"
+        },
+        {
+            "type": "goods",
+            "act": "終演後物販",
+            "stage_id": "main",
+            "start": "21:10",
+            "end": "22:30",
+            "description": "撮影可能エリアあり"
+        },
+        {
+            "type": "goods",
+            "act": "Question.VI",
+            "stage_id": "goods_a",
+            "start": "09:10",
+            "end": "10:30",
+            "description": "撮影可能エリアあり"
+        },
+        {
+            "type": "goods",
+            "act": "紫陽花は降らない",
+            "stage_id": "goods_a",
+            "start": "10:50",
+            "end": "12:10",
+            "emoji": "📸"
+        },
+        {
+            "type": "goods",
+            "act": "Maison de Queen",
+            "stage_id": "goods_a",
+            "start": "12:30",
+            "end": "13:50",
+            "emoji": "📸"
+        },
+        {
+            "type": "goods",
+            "act": "ハルニジョン",
+            "stage_id": "goods_a",
+            "start": "14:15",
+            "end": "15:35"
+        },
+        {
+            "type": "goods",
+            "act": "SITUASION",
+            "stage_id": "goods_a",
+            "start": "15:55",
+            "end": "17:15"
+        },
+        {
+            "type": "goods",
+            "act": "シェメイ",
+            "stage_id": "goods_a",
+            "start": "17:40",
+            "end": "19:00"
+        },
+        {
+            "type": "goods",
+            "act": "ルルネージュ",
+            "stage_id": "goods_a",
+            "start": "19:20",
+            "end": "20:40"
+        },
+        {
+            "type": "goods",
+            "act": "がすみ草とステラ",
+            "stage_id": "goods_a",
+            "start": "19:45",
+            "end": "21:05",
+            "emoji": "📸"
+        },
+        {
+            "type": "goods",
+            "act": "アストレイル",
+            "stage_id": "goods_b",
+            "start": "09:35",
+            "end": "10:55"
+        },
+        {
+            "type": "goods",
+            "act": "I MY ME MINE",
+            "stage_id": "goods_b",
+            "start": "11:15",
+            "end": "12:35",
+            "emoji": "📸"
+        },
+        {
+            "type": "goods",
+            "act": "RAViDAVi",
+            "stage_id": "goods_b",
+            "start": "12:55",
+            "end": "14:15",
+            "description": "撮影可能エリアあり",
+            "emoji": "📸"
+        },
+        {
+            "type": "goods",
+            "act": "MyDearDarlin'",
+            "stage_id": "goods_b",
+            "start": "14:40",
+            "end": "16:00"
+        },
+        {
+            "type": "goods",
+            "act": "Mirror,Mirror",
+            "stage_id": "goods_b",
+            "start": "16:20",
+            "end": "17:40",
+            "description": "撮影可能エリアあり"
+        },
+        {
+            "type": "goods",
+            "act": "Tohkei",
+            "stage_id": "goods_b",
+            "start": "18:05",
+            "end": "19:25"
+        },
+        {
+            "type": "goods",
+            "act": "PRSMIN",
+            "stage_id": "goods_b",
+            "start": "18:30",
+            "end": "19:50",
+            "description": "撮影可能エリアあり"
+        },
+        {
+            "type": "goods",
+            "act": "Malcolm Mask McLaren",
+            "stage_id": "goods_c",
+            "start": "10:00",
+            "end": "11:20",
+            "description": "撮影可能エリアあり"
+        },
+        {
+            "type": "goods",
+            "act": "ラナキュラ",
+            "stage_id": "goods_c",
+            "start": "11:40",
+            "end": "13:00",
+            "description": "撮影可能エリアあり",
+            "emoji": "📸"
+        },
+        {
+            "type": "goods",
+            "act": "HIBANA",
+            "stage_id": "goods_c",
+            "start": "13:20",
+            "end": "14:40",
+            "description": "撮影可能エリアあり",
+            "emoji": "📸"
+        },
+        {
+            "type": "goods",
+            "act": "Kolokol",
+            "stage_id": "goods_c",
+            "start": "15:05",
+            "end": "16:25",
+            "description": "撮影可能エリアあり"
+        },
+        {
+            "type": "goods",
+            "act": "Ringwanderung",
+            "stage_id": "goods_c",
+            "start": "16:45",
+            "end": "18:05",
+            "emoji": "📸"
+        },
+        {
+            "type": "goods",
+            "act": "アンスリューム",
+            "stage_id": "goods_c",
+            "start": "18:30",
+            "end": "19:50",
+            "description": "撮影可能エリアあり"
+        },
+        {
+            "type": "goods",
+            "act": "FULIT BOX",
+            "stage_id": "goods_d",
+            "start": "10:25",
+            "end": "11:45",
+            "description": "撮影可能エリアあり"
+        },
+        {
+            "type": "goods",
+            "act": "#よーよーよー",
+            "stage_id": "goods_d",
+            "start": "12:05",
+            "end": "13:25",
+            "description": "撮影可能エリアあり"
+        },
+        {
+            "type": "goods",
+            "act": "ハルニジョン",
+            "stage_id": "goods_d",
+            "start": "13:45",
+            "end": "15:05"
+        },
+        {
+            "type": "goods",
+            "act": "YOLOZ",
+            "stage_id": "goods_d",
+            "start": "15:30",
+            "end": "16:50"
+        },
+        {
+            "type": "goods",
+            "act": "THE ORCHESTRA TOKYO",
+            "stage_id": "goods_d",
+            "start": "17:10",
+            "end": "18:30"
+        },
+        {
+            "type": "goods",
+            "act": "ルルネージュ",
+            "stage_id": "goods_d",
+            "start": "18:55",
+            "end": "20:15",
+            "emoji": "📸"
+        }
+    ],
+    "description": "イベントの補足情報です。\n詳細はこちら: https://example.com/info",
+    "official_url": "https://example.com"
+}

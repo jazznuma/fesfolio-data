@@ -1,0 +1,1811 @@
+{
+    "event_id": "2025-08-10_i_all-day-mega-fest",
+    "event_name": "オールデイメガフェス2025",
+    "date": "2025-08-10",
+    "venue": "幕張メッセ",
+    "open_time": "09:00",
+    "start_time": "10:00",
+    "ticket_url": "https://example.com/ticket/all-day-fest",
+    "stages": [
+        {
+            "stage_id": "main",
+            "stage_name": "Main Stage",
+            "description": "メインステージ"
+        },
+        {
+            "stage_id": "sub",
+            "stage_name": "Sub Stage",
+            "description": "サブステージ"
+        },
+        {
+            "stage_id": "outdoor",
+            "stage_name": "Outdoor Stage",
+            "description": "屋外ステージ"
+        },
+        {
+            "stage_id": "acoustic",
+            "stage_name": "Acoustic Stage",
+            "description": "アコースティックステージ"
+        },
+        {
+            "stage_id": "dj_booth",
+            "stage_name": "DJ Booth",
+            "description": "DJブース"
+        },
+        {
+            "stage_id": "tokuten_a",
+            "stage_name": "特典会A",
+            "description": "1F ロビー"
+        },
+        {
+            "stage_id": "tokuten_b",
+            "stage_name": "特典会B",
+            "description": "2F ホール"
+        },
+        {
+            "stage_id": "tokuten_c",
+            "stage_name": "特典会C",
+            "description": "3F ラウンジ"
+        },
+        {
+            "stage_id": "talk_stage",
+            "stage_name": "Talk Stage",
+            "description": "トークステージ"
+        },
+        {
+            "stage_id": "food_court",
+            "stage_name": "Food Court Stage",
+            "description": "フードコートステージ"
+        },
+        {
+            "stage_id": "idol_park",
+            "stage_name": "Idol Park",
+            "description": "アイドルパーク"
+        },
+        {
+            "stage_id": "gaming_area",
+            "stage_name": "Gaming Area",
+            "description": "ゲーミングエリア"
+        },
+        {
+            "stage_id": "tokuten_d",
+            "stage_name": "特典会D",
+            "description": "別館 1F"
+        },
+        {
+            "stage_id": "tokuten_e",
+            "stage_name": "特典会E",
+            "description": "別館 2F"
+        },
+        {
+            "stage_id": "tokuten_f",
+            "stage_name": "特典会F",
+            "description": "別館 3F"
+        },
+        {
+            "stage_id": "vip_lounge",
+            "stage_name": "VIP Lounge",
+            "description": "VIPラウンジ"
+        },
+        {
+            "stage_id": "entrance",
+            "stage_name": "Entrance Stage",
+            "description": "エントランスステージ"
+        },
+        {
+            "stage_id": "secret_room",
+            "stage_name": "Secret Room",
+            "description": "シークレットルーム"
+        },
+        {
+            "stage_id": "collab_stage",
+            "stage_name": "Collab Stage",
+            "description": "コラボステージ"
+        },
+        {
+            "stage_id": "rookie_stage",
+            "stage_name": "Rookie Stage",
+            "description": "新人ステージ"
+        }
+    ],
+    "timetable": [
+        {
+            "type": "live",
+            "act": "ブレックファストクラブ",
+            "stage_id": "main",
+            "start": "10:28",
+            "end": "11:28"
+        },
+        {
+            "type": "live",
+            "act": "ムーンライズ",
+            "stage_id": "main",
+            "start": "11:56",
+            "end": "12:26",
+            "emoji": "📸"
+        },
+        {
+            "type": "live",
+            "act": "ムーンライズ",
+            "stage_id": "main",
+            "start": "12:47",
+            "end": "13:32",
+            "description": "撮影可能エリアあり"
+        },
+        {
+            "type": "live",
+            "act": "アンドロメダ",
+            "stage_id": "main",
+            "start": "13:53",
+            "end": "14:38",
+            "description": "撮影可能エリアあり"
+        },
+        {
+            "type": "live",
+            "act": "未来少女",
+            "stage_id": "main",
+            "start": "14:57",
+            "end": "15:57"
+        },
+        {
+            "type": "live",
+            "act": "クロージングアクト",
+            "stage_id": "main",
+            "start": "16:12",
+            "end": "16:42"
+        },
+        {
+            "type": "live",
+            "act": "パルサー",
+            "stage_id": "main",
+            "start": "17:11",
+            "end": "18:11",
+            "description": "撮影可能エリアあり"
+        },
+        {
+            "type": "live",
+            "act": "スーパーノヴァ",
+            "stage_id": "main",
+            "start": "18:31",
+            "end": "19:16"
+        },
+        {
+            "type": "live",
+            "act": "爆音シンデレラ",
+            "stage_id": "main",
+            "start": "19:36",
+            "end": "20:06",
+            "description": "撮影可能エリアあり"
+        },
+        {
+            "type": "live",
+            "act": "ナイトフォール",
+            "stage_id": "main",
+            "start": "20:24",
+            "end": "21:09",
+            "emoji": "📸"
+        },
+        {
+            "type": "live",
+            "act": "クロージングアクト",
+            "stage_id": "main",
+            "start": "21:29",
+            "end": "22:14",
+            "description": "撮影可能エリアあり",
+            "emoji": "📸"
+        },
+        {
+            "type": "live",
+            "act": "ミッドナイトエクスプレス",
+            "stage_id": "sub",
+            "start": "10:10",
+            "end": "10:40",
+            "description": "撮影可能エリアあり",
+            "emoji": "📸"
+        },
+        {
+            "type": "live",
+            "act": "ミッドナイトドリーム",
+            "stage_id": "sub",
+            "start": "11:03",
+            "end": "12:03"
+        },
+        {
+            "type": "live",
+            "act": "ゴールデンアワー",
+            "stage_id": "sub",
+            "start": "12:32",
+            "end": "13:32",
+            "description": "撮影可能エリアあり"
+        },
+        {
+            "type": "live",
+            "act": "サマーヴァイブス",
+            "stage_id": "sub",
+            "start": "13:55",
+            "end": "14:25"
+        },
+        {
+            "type": "live",
+            "act": "サマーヴァイブス",
+            "stage_id": "sub",
+            "start": "14:55",
+            "end": "15:55"
+        },
+        {
+            "type": "live",
+            "act": "イブニングライト",
+            "stage_id": "sub",
+            "start": "16:19",
+            "end": "17:19"
+        },
+        {
+            "type": "live",
+            "act": "ビッグバン",
+            "stage_id": "sub",
+            "start": "17:42",
+            "end": "18:27"
+        },
+        {
+            "type": "live",
+            "act": "スーパーノヴァ",
+            "stage_id": "sub",
+            "start": "18:44",
+            "end": "19:14"
+        },
+        {
+            "type": "live",
+            "act": "ミッドナイトエクスプレス",
+            "stage_id": "sub",
+            "start": "19:35",
+            "end": "20:20",
+            "description": "撮影可能エリアあり"
+        },
+        {
+            "type": "live",
+            "act": "ブレックファストクラブ",
+            "stage_id": "sub",
+            "start": "20:38",
+            "end": "21:23",
+            "description": "撮影可能エリアあり"
+        },
+        {
+            "type": "live",
+            "act": "トワイライトエコー",
+            "stage_id": "sub",
+            "start": "21:43",
+            "end": "22:13",
+            "emoji": "📸"
+        },
+        {
+            "type": "live",
+            "act": "ギャラクシーエンジェル",
+            "stage_id": "outdoor",
+            "start": "10:01",
+            "end": "11:01",
+            "description": "撮影可能エリアあり",
+            "emoji": "📸"
+        },
+        {
+            "type": "live",
+            "act": "流星群少女",
+            "stage_id": "outdoor",
+            "start": "11:24",
+            "end": "12:24",
+            "description": "撮影可能エリアあり"
+        },
+        {
+            "type": "live",
+            "act": "ナイトフォール",
+            "stage_id": "outdoor",
+            "start": "12:46",
+            "end": "13:46"
+        },
+        {
+            "type": "live",
+            "act": "銀河鉄道999",
+            "stage_id": "outdoor",
+            "start": "14:12",
+            "end": "15:12",
+            "description": "撮影可能エリアあり",
+            "emoji": "📸"
+        },
+        {
+            "type": "live",
+            "act": "サンライズビート",
+            "stage_id": "outdoor",
+            "start": "15:36",
+            "end": "16:36",
+            "description": "撮影可能エリアあり"
+        },
+        {
+            "type": "live",
+            "act": "イブニングスター",
+            "stage_id": "outdoor",
+            "start": "16:51",
+            "end": "17:36"
+        },
+        {
+            "type": "live",
+            "act": "モーニングスターズ",
+            "stage_id": "outdoor",
+            "start": "18:04",
+            "end": "19:04",
+            "description": "撮影可能エリアあり"
+        },
+        {
+            "type": "live",
+            "act": "ヌーンサンシャイン",
+            "stage_id": "outdoor",
+            "start": "19:33",
+            "end": "20:33"
+        },
+        {
+            "type": "live",
+            "act": "オリオン座",
+            "stage_id": "outdoor",
+            "start": "21:02",
+            "end": "21:47"
+        },
+        {
+            "type": "live",
+            "act": "ナイトビート",
+            "stage_id": "acoustic",
+            "start": "10:10",
+            "end": "10:40"
+        },
+        {
+            "type": "live",
+            "act": "クエーサー",
+            "stage_id": "acoustic",
+            "start": "11:01",
+            "end": "11:31",
+            "description": "撮影可能エリアあり"
+        },
+        {
+            "type": "live",
+            "act": "ゴールデンアワー",
+            "stage_id": "acoustic",
+            "start": "12:00",
+            "end": "13:00",
+            "description": "撮影可能エリアあり"
+        },
+        {
+            "type": "live",
+            "act": "ミッドナイトエクスプレス",
+            "stage_id": "acoustic",
+            "start": "13:18",
+            "end": "14:03"
+        },
+        {
+            "type": "live",
+            "act": "コズミックハート",
+            "stage_id": "acoustic",
+            "start": "14:18",
+            "end": "15:18",
+            "description": "撮影可能エリアあり"
+        },
+        {
+            "type": "live",
+            "act": "ヌーンサンシャイン",
+            "stage_id": "acoustic",
+            "start": "15:45",
+            "end": "16:30",
+            "emoji": "📸"
+        },
+        {
+            "type": "live",
+            "act": "ミッドナイトエクスプレス",
+            "stage_id": "acoustic",
+            "start": "16:55",
+            "end": "17:40",
+            "description": "撮影可能エリアあり"
+        },
+        {
+            "type": "live",
+            "act": "サンセットグルーヴ",
+            "stage_id": "acoustic",
+            "start": "18:01",
+            "end": "18:31"
+        },
+        {
+            "type": "live",
+            "act": "ダークサイドグルーヴ",
+            "stage_id": "acoustic",
+            "start": "18:51",
+            "end": "19:21",
+            "emoji": "📸"
+        },
+        {
+            "type": "live",
+            "act": "イブニングスター",
+            "stage_id": "acoustic",
+            "start": "19:44",
+            "end": "20:29"
+        },
+        {
+            "type": "live",
+            "act": "モーニングスターズ",
+            "stage_id": "acoustic",
+            "start": "20:47",
+            "end": "21:47"
+        },
+        {
+            "type": "live",
+            "act": "ダークサイドグルーヴ",
+            "stage_id": "acoustic",
+            "start": "22:02",
+            "end": "22:47",
+            "description": "撮影可能エリアあり",
+            "emoji": "📸"
+        },
+        {
+            "type": "live",
+            "act": "サンライズビート",
+            "stage_id": "dj_booth",
+            "start": "10:03",
+            "end": "11:03",
+            "emoji": "📸"
+        },
+        {
+            "type": "live",
+            "act": "アフタヌーンビート",
+            "stage_id": "dj_booth",
+            "start": "11:31",
+            "end": "12:01"
+        },
+        {
+            "type": "live",
+            "act": "クエーサー",
+            "stage_id": "dj_booth",
+            "start": "12:21",
+            "end": "13:06",
+            "description": "撮影可能エリアあり"
+        },
+        {
+            "type": "live",
+            "act": "オリオン座",
+            "stage_id": "dj_booth",
+            "start": "13:23",
+            "end": "13:53",
+            "description": "撮影可能エリアあり"
+        },
+        {
+            "type": "live",
+            "act": "未来少女",
+            "stage_id": "dj_booth",
+            "start": "14:18",
+            "end": "14:48",
+            "emoji": "📸"
+        },
+        {
+            "type": "live",
+            "act": "流星群少女",
+            "stage_id": "dj_booth",
+            "start": "15:10",
+            "end": "15:40"
+        },
+        {
+            "type": "live",
+            "act": "マグネター",
+            "stage_id": "dj_booth",
+            "start": "16:06",
+            "end": "16:51"
+        },
+        {
+            "type": "live",
+            "act": "レイトナイトジャム",
+            "stage_id": "dj_booth",
+            "start": "17:20",
+            "end": "17:50"
+        },
+        {
+            "type": "live",
+            "act": "ブレックファストクラブ",
+            "stage_id": "dj_booth",
+            "start": "18:20",
+            "end": "18:50",
+            "description": "撮影可能エリアあり"
+        },
+        {
+            "type": "live",
+            "act": "ネビュラ",
+            "stage_id": "dj_booth",
+            "start": "19:15",
+            "end": "19:45",
+            "description": "撮影可能エリアあり"
+        },
+        {
+            "type": "live",
+            "act": "ビッグバン",
+            "stage_id": "dj_booth",
+            "start": "20:09",
+            "end": "21:09",
+            "description": "撮影可能エリアあり",
+            "emoji": "📸"
+        },
+        {
+            "type": "live",
+            "act": "ランチタイムジャム",
+            "stage_id": "dj_booth",
+            "start": "21:39",
+            "end": "22:24"
+        },
+        {
+            "type": "tokuten",
+            "act": "レイトナイトジャム",
+            "stage_id": "tokuten_a",
+            "start": "10:24",
+            "end": "11:24",
+            "description": "撮影可能エリアあり"
+        },
+        {
+            "type": "tokuten",
+            "act": "爆音シンデレラ",
+            "stage_id": "tokuten_a",
+            "start": "11:44",
+            "end": "12:44"
+        },
+        {
+            "type": "tokuten",
+            "act": "スーパーノヴァ",
+            "stage_id": "tokuten_a",
+            "start": "13:09",
+            "end": "14:09",
+            "description": "撮影可能エリアあり"
+        },
+        {
+            "type": "tokuten",
+            "act": "ランチタイムジャム",
+            "stage_id": "tokuten_a",
+            "start": "14:33",
+            "end": "15:03"
+        },
+        {
+            "type": "tokuten",
+            "act": "ムーンライズ",
+            "stage_id": "tokuten_a",
+            "start": "15:21",
+            "end": "15:51",
+            "description": "撮影可能エリアあり",
+            "emoji": "📸"
+        },
+        {
+            "type": "tokuten",
+            "act": "流星群少女",
+            "stage_id": "tokuten_a",
+            "start": "16:06",
+            "end": "16:51",
+            "emoji": "📸"
+        },
+        {
+            "type": "tokuten",
+            "act": "クロージングアクト",
+            "stage_id": "tokuten_a",
+            "start": "17:10",
+            "end": "17:55",
+            "description": "撮影可能エリアあり",
+            "emoji": "📸"
+        },
+        {
+            "type": "tokuten",
+            "act": "イブニングライト",
+            "stage_id": "tokuten_a",
+            "start": "18:19",
+            "end": "19:19",
+            "description": "撮影可能エリアあり"
+        },
+        {
+            "type": "tokuten",
+            "act": "ランチタイムジャム",
+            "stage_id": "tokuten_a",
+            "start": "19:47",
+            "end": "20:47"
+        },
+        {
+            "type": "tokuten",
+            "act": "ミッドナイトエクスプレス",
+            "stage_id": "tokuten_a",
+            "start": "21:14",
+            "end": "22:14"
+        },
+        {
+            "type": "tokuten",
+            "act": "イブニングライト",
+            "stage_id": "tokuten_b",
+            "start": "10:20",
+            "end": "11:05",
+            "description": "撮影可能エリアあり",
+            "emoji": "📸"
+        },
+        {
+            "type": "tokuten",
+            "act": "ダークサイドグルーヴ",
+            "stage_id": "tokuten_b",
+            "start": "11:33",
+            "end": "12:33",
+            "description": "撮影可能エリアあり"
+        },
+        {
+            "type": "tokuten",
+            "act": "未来少女",
+            "stage_id": "tokuten_b",
+            "start": "12:51",
+            "end": "13:51",
+            "description": "撮影可能エリアあり"
+        },
+        {
+            "type": "tokuten",
+            "act": "ビッグバン",
+            "stage_id": "tokuten_b",
+            "start": "14:08",
+            "end": "14:53"
+        },
+        {
+            "type": "tokuten",
+            "act": "コズミックハート",
+            "stage_id": "tokuten_b",
+            "start": "15:15",
+            "end": "16:15",
+            "emoji": "📸"
+        },
+        {
+            "type": "tokuten",
+            "act": "ランチタイムジャム",
+            "stage_id": "tokuten_b",
+            "start": "16:38",
+            "end": "17:38",
+            "description": "撮影可能エリアあり",
+            "emoji": "📸"
+        },
+        {
+            "type": "tokuten",
+            "act": "ブレックファストクラブ",
+            "stage_id": "tokuten_b",
+            "start": "17:54",
+            "end": "18:39",
+            "emoji": "📸"
+        },
+        {
+            "type": "tokuten",
+            "act": "ナイトビート",
+            "stage_id": "tokuten_b",
+            "start": "19:06",
+            "end": "19:36",
+            "emoji": "📸"
+        },
+        {
+            "type": "tokuten",
+            "act": "ミッドナイトエクスプレス",
+            "stage_id": "tokuten_b",
+            "start": "19:57",
+            "end": "20:57",
+            "emoji": "📸"
+        },
+        {
+            "type": "tokuten",
+            "act": "ファイナルコール",
+            "stage_id": "tokuten_b",
+            "start": "21:19",
+            "end": "22:04",
+            "description": "撮影可能エリアあり"
+        },
+        {
+            "type": "tokuten",
+            "act": "流星群少女",
+            "stage_id": "tokuten_b",
+            "start": "22:21",
+            "end": "22:51"
+        },
+        {
+            "type": "tokuten",
+            "act": "ダークサイドグルーヴ",
+            "stage_id": "tokuten_c",
+            "start": "10:09",
+            "end": "11:09",
+            "description": "撮影可能エリアあり"
+        },
+        {
+            "type": "tokuten",
+            "act": "ブレックファストクラブ",
+            "stage_id": "tokuten_c",
+            "start": "11:34",
+            "end": "12:19"
+        },
+        {
+            "type": "tokuten",
+            "act": "ミッドナイトエクスプレス",
+            "stage_id": "tokuten_c",
+            "start": "12:36",
+            "end": "13:36",
+            "description": "撮影可能エリアあり"
+        },
+        {
+            "type": "tokuten",
+            "act": "ファイナルコール",
+            "stage_id": "tokuten_c",
+            "start": "13:55",
+            "end": "14:25",
+            "description": "撮影可能エリアあり"
+        },
+        {
+            "type": "tokuten",
+            "act": "未来少女",
+            "stage_id": "tokuten_c",
+            "start": "14:45",
+            "end": "15:15",
+            "description": "撮影可能エリアあり",
+            "emoji": "📸"
+        },
+        {
+            "type": "tokuten",
+            "act": "デイライトドリーム",
+            "stage_id": "tokuten_c",
+            "start": "15:31",
+            "end": "16:31"
+        },
+        {
+            "type": "tokuten",
+            "act": "ダークサイドグルーヴ",
+            "stage_id": "tokuten_c",
+            "start": "17:01",
+            "end": "17:31"
+        },
+        {
+            "type": "tokuten",
+            "act": "ゴールデンアワー",
+            "stage_id": "tokuten_c",
+            "start": "17:52",
+            "end": "18:37",
+            "description": "撮影可能エリアあり"
+        },
+        {
+            "type": "tokuten",
+            "act": "アンドロメダ",
+            "stage_id": "tokuten_c",
+            "start": "18:57",
+            "end": "19:42",
+            "description": "撮影可能エリアあり"
+        },
+        {
+            "type": "tokuten",
+            "act": "サンセットグルーヴ",
+            "stage_id": "tokuten_c",
+            "start": "20:06",
+            "end": "20:51",
+            "description": "撮影可能エリアあり"
+        },
+        {
+            "type": "tokuten",
+            "act": "ブレックファストクラブ",
+            "stage_id": "tokuten_c",
+            "start": "21:08",
+            "end": "21:53",
+            "description": "撮影可能エリアあり"
+        },
+        {
+            "type": "live",
+            "act": "ダークサイドグルーヴ",
+            "stage_id": "talk_stage",
+            "start": "10:21",
+            "end": "10:51",
+            "description": "撮影可能エリアあり",
+            "emoji": "📸"
+        },
+        {
+            "type": "live",
+            "act": "ゴールデンアワー",
+            "stage_id": "talk_stage",
+            "start": "11:14",
+            "end": "12:14"
+        },
+        {
+            "type": "live",
+            "act": "サンセットグルーヴ",
+            "stage_id": "talk_stage",
+            "start": "12:42",
+            "end": "13:27",
+            "description": "撮影可能エリアあり"
+        },
+        {
+            "type": "live",
+            "act": "アフタヌーンビート",
+            "stage_id": "talk_stage",
+            "start": "13:57",
+            "end": "14:27"
+        },
+        {
+            "type": "live",
+            "act": "サンライズビート",
+            "stage_id": "talk_stage",
+            "start": "14:44",
+            "end": "15:29",
+            "description": "撮影可能エリアあり",
+            "emoji": "📸"
+        },
+        {
+            "type": "live",
+            "act": "モーニングスターズ",
+            "stage_id": "talk_stage",
+            "start": "15:59",
+            "end": "16:44"
+        },
+        {
+            "type": "live",
+            "act": "流星群少女",
+            "stage_id": "talk_stage",
+            "start": "17:07",
+            "end": "17:37",
+            "description": "撮影可能エリアあり",
+            "emoji": "📸"
+        },
+        {
+            "type": "live",
+            "act": "ゴールデンアワー",
+            "stage_id": "talk_stage",
+            "start": "18:04",
+            "end": "18:49"
+        },
+        {
+            "type": "live",
+            "act": "ナイトフォール",
+            "stage_id": "talk_stage",
+            "start": "19:15",
+            "end": "20:00"
+        },
+        {
+            "type": "live",
+            "act": "マグネター",
+            "stage_id": "talk_stage",
+            "start": "20:27",
+            "end": "21:12",
+            "description": "撮影可能エリアあり"
+        },
+        {
+            "type": "live",
+            "act": "イブニングスター",
+            "stage_id": "talk_stage",
+            "start": "21:39",
+            "end": "22:39",
+            "description": "撮影可能エリアあり",
+            "emoji": "📸"
+        },
+        {
+            "type": "live",
+            "act": "ヌーンサンシャイン",
+            "stage_id": "food_court",
+            "start": "10:09",
+            "end": "11:09"
+        },
+        {
+            "type": "live",
+            "act": "ミッドナイトエクスプレス",
+            "stage_id": "food_court",
+            "start": "11:24",
+            "end": "12:24"
+        },
+        {
+            "type": "live",
+            "act": "爆音シンデレラ",
+            "stage_id": "food_court",
+            "start": "12:50",
+            "end": "13:50",
+            "emoji": "📸"
+        },
+        {
+            "type": "live",
+            "act": "デイライトドリーム",
+            "stage_id": "food_court",
+            "start": "14:06",
+            "end": "14:51",
+            "description": "撮影可能エリアあり",
+            "emoji": "📸"
+        },
+        {
+            "type": "live",
+            "act": "爆音シンデレラ",
+            "stage_id": "food_court",
+            "start": "15:10",
+            "end": "15:55",
+            "description": "撮影可能エリアあり",
+            "emoji": "📸"
+        },
+        {
+            "type": "live",
+            "act": "スーパーノヴァ",
+            "stage_id": "food_court",
+            "start": "16:18",
+            "end": "17:03",
+            "description": "撮影可能エリアあり"
+        },
+        {
+            "type": "live",
+            "act": "パルサー",
+            "stage_id": "food_court",
+            "start": "17:25",
+            "end": "18:10",
+            "description": "撮影可能エリアあり",
+            "emoji": "📸"
+        },
+        {
+            "type": "live",
+            "act": "ミッドナイトドリーム",
+            "stage_id": "food_court",
+            "start": "18:29",
+            "end": "19:14"
+        },
+        {
+            "type": "live",
+            "act": "マグネター",
+            "stage_id": "food_court",
+            "start": "19:39",
+            "end": "20:09",
+            "description": "撮影可能エリアあり",
+            "emoji": "📸"
+        },
+        {
+            "type": "live",
+            "act": "モーニングスターズ",
+            "stage_id": "food_court",
+            "start": "20:30",
+            "end": "21:15",
+            "emoji": "📸"
+        },
+        {
+            "type": "live",
+            "act": "ブラックホール",
+            "stage_id": "food_court",
+            "start": "21:34",
+            "end": "22:04"
+        },
+        {
+            "type": "live",
+            "act": "オリオン座",
+            "stage_id": "idol_park",
+            "start": "10:24",
+            "end": "11:24"
+        },
+        {
+            "type": "live",
+            "act": "トワイライトエコー",
+            "stage_id": "idol_park",
+            "start": "11:49",
+            "end": "12:19",
+            "description": "撮影可能エリアあり",
+            "emoji": "📸"
+        },
+        {
+            "type": "live",
+            "act": "ペガサスファンタジー",
+            "stage_id": "idol_park",
+            "start": "12:41",
+            "end": "13:26",
+            "description": "撮影可能エリアあり"
+        },
+        {
+            "type": "live",
+            "act": "ナイトビート",
+            "stage_id": "idol_park",
+            "start": "13:45",
+            "end": "14:30",
+            "description": "撮影可能エリアあり",
+            "emoji": "📸"
+        },
+        {
+            "type": "live",
+            "act": "ランチタイムジャム",
+            "stage_id": "idol_park",
+            "start": "14:54",
+            "end": "15:39",
+            "emoji": "📸"
+        },
+        {
+            "type": "live",
+            "act": "ビッグバン",
+            "stage_id": "idol_park",
+            "start": "16:05",
+            "end": "17:05",
+            "description": "撮影可能エリアあり"
+        },
+        {
+            "type": "live",
+            "act": "ミッドデイメロディ",
+            "stage_id": "idol_park",
+            "start": "17:22",
+            "end": "17:52",
+            "emoji": "📸"
+        },
+        {
+            "type": "live",
+            "act": "ブレックファストクラブ",
+            "stage_id": "idol_park",
+            "start": "18:11",
+            "end": "18:56"
+        },
+        {
+            "type": "live",
+            "act": "爆音シンデレラ",
+            "stage_id": "idol_park",
+            "start": "19:12",
+            "end": "20:12",
+            "emoji": "📸"
+        },
+        {
+            "type": "live",
+            "act": "ダスクハーモニー",
+            "stage_id": "idol_park",
+            "start": "20:34",
+            "end": "21:19",
+            "description": "撮影可能エリアあり",
+            "emoji": "📸"
+        },
+        {
+            "type": "live",
+            "act": "ファイナルコール",
+            "stage_id": "idol_park",
+            "start": "21:48",
+            "end": "22:48",
+            "description": "撮影可能エリアあり"
+        },
+        {
+            "type": "live",
+            "act": "レイトナイトジャム",
+            "stage_id": "gaming_area",
+            "start": "10:30",
+            "end": "11:15"
+        },
+        {
+            "type": "live",
+            "act": "コズミックハート",
+            "stage_id": "gaming_area",
+            "start": "11:34",
+            "end": "12:34",
+            "description": "撮影可能エリアあり",
+            "emoji": "📸"
+        },
+        {
+            "type": "live",
+            "act": "マグネター",
+            "stage_id": "gaming_area",
+            "start": "12:51",
+            "end": "13:36",
+            "description": "撮影可能エリアあり"
+        },
+        {
+            "type": "live",
+            "act": "ミッドデイメロディ",
+            "stage_id": "gaming_area",
+            "start": "13:59",
+            "end": "14:29",
+            "description": "撮影可能エリアあり"
+        },
+        {
+            "type": "live",
+            "act": "ファイナルコール",
+            "stage_id": "gaming_area",
+            "start": "14:47",
+            "end": "15:17",
+            "description": "撮影可能エリアあり",
+            "emoji": "📸"
+        },
+        {
+            "type": "live",
+            "act": "ナイトビート",
+            "stage_id": "gaming_area",
+            "start": "15:32",
+            "end": "16:32"
+        },
+        {
+            "type": "live",
+            "act": "オリオン座",
+            "stage_id": "gaming_area",
+            "start": "16:54",
+            "end": "17:54",
+            "emoji": "📸"
+        },
+        {
+            "type": "live",
+            "act": "アフターアワーズ",
+            "stage_id": "gaming_area",
+            "start": "18:17",
+            "end": "19:17",
+            "description": "撮影可能エリアあり",
+            "emoji": "📸"
+        },
+        {
+            "type": "live",
+            "act": "マグネター",
+            "stage_id": "gaming_area",
+            "start": "19:36",
+            "end": "20:21",
+            "description": "撮影可能エリアあり"
+        },
+        {
+            "type": "live",
+            "act": "銀河鉄道999",
+            "stage_id": "gaming_area",
+            "start": "20:38",
+            "end": "21:38"
+        },
+        {
+            "type": "tokuten",
+            "act": "アフタヌーンビート",
+            "stage_id": "tokuten_d",
+            "start": "10:02",
+            "end": "11:02"
+        },
+        {
+            "type": "tokuten",
+            "act": "ブレックファストクラブ",
+            "stage_id": "tokuten_d",
+            "start": "11:18",
+            "end": "12:18",
+            "description": "撮影可能エリアあり",
+            "emoji": "📸"
+        },
+        {
+            "type": "tokuten",
+            "act": "サンセットグルーヴ",
+            "stage_id": "tokuten_d",
+            "start": "12:43",
+            "end": "13:43",
+            "description": "撮影可能エリアあり",
+            "emoji": "📸"
+        },
+        {
+            "type": "tokuten",
+            "act": "イブニングスター",
+            "stage_id": "tokuten_d",
+            "start": "14:10",
+            "end": "14:40"
+        },
+        {
+            "type": "tokuten",
+            "act": "ダークサイドグルーヴ",
+            "stage_id": "tokuten_d",
+            "start": "15:01",
+            "end": "15:46"
+        },
+        {
+            "type": "tokuten",
+            "act": "ムーンライズ",
+            "stage_id": "tokuten_d",
+            "start": "16:03",
+            "end": "16:48",
+            "emoji": "📸"
+        },
+        {
+            "type": "tokuten",
+            "act": "ペガサスファンタジー",
+            "stage_id": "tokuten_d",
+            "start": "17:14",
+            "end": "17:59"
+        },
+        {
+            "type": "tokuten",
+            "act": "ミッドナイトエクスプレス",
+            "stage_id": "tokuten_d",
+            "start": "18:14",
+            "end": "18:44",
+            "emoji": "📸"
+        },
+        {
+            "type": "tokuten",
+            "act": "クエーサー",
+            "stage_id": "tokuten_d",
+            "start": "19:06",
+            "end": "19:36"
+        },
+        {
+            "type": "tokuten",
+            "act": "流星群少女",
+            "stage_id": "tokuten_d",
+            "start": "20:03",
+            "end": "20:33",
+            "description": "撮影可能エリアあり"
+        },
+        {
+            "type": "tokuten",
+            "act": "サンセットグルーヴ",
+            "stage_id": "tokuten_d",
+            "start": "21:02",
+            "end": "22:02"
+        },
+        {
+            "type": "tokuten",
+            "act": "オリオン座",
+            "stage_id": "tokuten_e",
+            "start": "10:13",
+            "end": "11:13",
+            "description": "撮影可能エリアあり"
+        },
+        {
+            "type": "tokuten",
+            "act": "トワイライトエコー",
+            "stage_id": "tokuten_e",
+            "start": "11:36",
+            "end": "12:36"
+        },
+        {
+            "type": "tokuten",
+            "act": "レイトナイトジャム",
+            "stage_id": "tokuten_e",
+            "start": "12:51",
+            "end": "13:36",
+            "description": "撮影可能エリアあり"
+        },
+        {
+            "type": "tokuten",
+            "act": "オリオン座",
+            "stage_id": "tokuten_e",
+            "start": "13:51",
+            "end": "14:51",
+            "description": "撮影可能エリアあり",
+            "emoji": "📸"
+        },
+        {
+            "type": "tokuten",
+            "act": "デイライトドリーム",
+            "stage_id": "tokuten_e",
+            "start": "15:20",
+            "end": "15:50",
+            "description": "撮影可能エリアあり"
+        },
+        {
+            "type": "tokuten",
+            "act": "ブラックホール",
+            "stage_id": "tokuten_e",
+            "start": "16:13",
+            "end": "17:13",
+            "emoji": "📸"
+        },
+        {
+            "type": "tokuten",
+            "act": "スターライトセレナーデ",
+            "stage_id": "tokuten_e",
+            "start": "17:38",
+            "end": "18:08",
+            "description": "撮影可能エリアあり",
+            "emoji": "📸"
+        },
+        {
+            "type": "tokuten",
+            "act": "クロージングアクト",
+            "stage_id": "tokuten_e",
+            "start": "18:34",
+            "end": "19:19",
+            "emoji": "📸"
+        },
+        {
+            "type": "tokuten",
+            "act": "ペガサスファンタジー",
+            "stage_id": "tokuten_e",
+            "start": "19:43",
+            "end": "20:28"
+        },
+        {
+            "type": "tokuten",
+            "act": "キラキラ☆スターズ",
+            "stage_id": "tokuten_e",
+            "start": "20:47",
+            "end": "21:17",
+            "description": "撮影可能エリアあり"
+        },
+        {
+            "type": "tokuten",
+            "act": "イブニングライト",
+            "stage_id": "tokuten_e",
+            "start": "21:43",
+            "end": "22:43"
+        },
+        {
+            "type": "tokuten",
+            "act": "クエーサー",
+            "stage_id": "tokuten_f",
+            "start": "10:22",
+            "end": "11:07",
+            "description": "撮影可能エリアあり",
+            "emoji": "📸"
+        },
+        {
+            "type": "tokuten",
+            "act": "サンライズビート",
+            "stage_id": "tokuten_f",
+            "start": "11:28",
+            "end": "12:28",
+            "emoji": "📸"
+        },
+        {
+            "type": "tokuten",
+            "act": "キラキラ☆スターズ",
+            "stage_id": "tokuten_f",
+            "start": "12:53",
+            "end": "13:23",
+            "description": "撮影可能エリアあり"
+        },
+        {
+            "type": "tokuten",
+            "act": "イブニングライト",
+            "stage_id": "tokuten_f",
+            "start": "13:53",
+            "end": "14:38",
+            "description": "撮影可能エリアあり"
+        },
+        {
+            "type": "tokuten",
+            "act": "レイトナイトジャム",
+            "stage_id": "tokuten_f",
+            "start": "15:03",
+            "end": "15:48"
+        },
+        {
+            "type": "tokuten",
+            "act": "ミッドナイトドリーム",
+            "stage_id": "tokuten_f",
+            "start": "16:15",
+            "end": "16:45",
+            "emoji": "📸"
+        },
+        {
+            "type": "tokuten",
+            "act": "未来少女",
+            "stage_id": "tokuten_f",
+            "start": "17:01",
+            "end": "17:31",
+            "description": "撮影可能エリアあり"
+        },
+        {
+            "type": "tokuten",
+            "act": "ユニバース",
+            "stage_id": "tokuten_f",
+            "start": "17:47",
+            "end": "18:17"
+        },
+        {
+            "type": "tokuten",
+            "act": "スターライトセレナーデ",
+            "stage_id": "tokuten_f",
+            "start": "18:43",
+            "end": "19:13",
+            "emoji": "📸"
+        },
+        {
+            "type": "tokuten",
+            "act": "ムーンライズ",
+            "stage_id": "tokuten_f",
+            "start": "19:36",
+            "end": "20:06",
+            "description": "撮影可能エリアあり",
+            "emoji": "📸"
+        },
+        {
+            "type": "tokuten",
+            "act": "ユニバース",
+            "stage_id": "tokuten_f",
+            "start": "20:25",
+            "end": "21:10",
+            "description": "撮影可能エリアあり"
+        },
+        {
+            "type": "tokuten",
+            "act": "イブニングスター",
+            "stage_id": "tokuten_f",
+            "start": "21:29",
+            "end": "22:29",
+            "description": "撮影可能エリアあり"
+        },
+        {
+            "type": "live",
+            "act": "ミッドデイメロディ",
+            "stage_id": "vip_lounge",
+            "start": "10:20",
+            "end": "11:20",
+            "description": "撮影可能エリアあり"
+        },
+        {
+            "type": "live",
+            "act": "キラキラ☆スターズ",
+            "stage_id": "vip_lounge",
+            "start": "11:47",
+            "end": "12:47",
+            "emoji": "📸"
+        },
+        {
+            "type": "live",
+            "act": "オリオン座",
+            "stage_id": "vip_lounge",
+            "start": "13:10",
+            "end": "13:55"
+        },
+        {
+            "type": "live",
+            "act": "銀河鉄道999",
+            "stage_id": "vip_lounge",
+            "start": "14:22",
+            "end": "15:07"
+        },
+        {
+            "type": "live",
+            "act": "銀河鉄道999",
+            "stage_id": "vip_lounge",
+            "start": "15:23",
+            "end": "15:53",
+            "description": "撮影可能エリアあり",
+            "emoji": "📸"
+        },
+        {
+            "type": "live",
+            "act": "ミッドデイメロディ",
+            "stage_id": "vip_lounge",
+            "start": "16:19",
+            "end": "17:19",
+            "description": "撮影可能エリアあり"
+        },
+        {
+            "type": "live",
+            "act": "クエーサー",
+            "stage_id": "vip_lounge",
+            "start": "17:41",
+            "end": "18:26"
+        },
+        {
+            "type": "live",
+            "act": "ミッドナイトドリーム",
+            "stage_id": "vip_lounge",
+            "start": "18:50",
+            "end": "19:50",
+            "description": "撮影可能エリアあり",
+            "emoji": "📸"
+        },
+        {
+            "type": "live",
+            "act": "ダスクハーモニー",
+            "stage_id": "vip_lounge",
+            "start": "20:06",
+            "end": "20:51",
+            "description": "撮影可能エリアあり"
+        },
+        {
+            "type": "live",
+            "act": "ギャラクシーエンジェル",
+            "stage_id": "vip_lounge",
+            "start": "21:06",
+            "end": "22:06",
+            "description": "撮影可能エリアあり"
+        },
+        {
+            "type": "live",
+            "act": "スターライトセレナーデ",
+            "stage_id": "entrance",
+            "start": "10:08",
+            "end": "10:53"
+        },
+        {
+            "type": "live",
+            "act": "サンライズビート",
+            "stage_id": "entrance",
+            "start": "11:23",
+            "end": "11:53",
+            "description": "撮影可能エリアあり"
+        },
+        {
+            "type": "live",
+            "act": "ネビュラ",
+            "stage_id": "entrance",
+            "start": "12:10",
+            "end": "12:40",
+            "description": "撮影可能エリアあり",
+            "emoji": "📸"
+        },
+        {
+            "type": "live",
+            "act": "ダスクハーモニー",
+            "stage_id": "entrance",
+            "start": "12:59",
+            "end": "13:44",
+            "emoji": "📸"
+        },
+        {
+            "type": "live",
+            "act": "ネビュラ",
+            "stage_id": "entrance",
+            "start": "13:59",
+            "end": "14:44",
+            "description": "撮影可能エリアあり",
+            "emoji": "📸"
+        },
+        {
+            "type": "live",
+            "act": "流星群少女",
+            "stage_id": "entrance",
+            "start": "15:13",
+            "end": "15:43",
+            "emoji": "📸"
+        },
+        {
+            "type": "live",
+            "act": "ゴールデンアワー",
+            "stage_id": "entrance",
+            "start": "16:11",
+            "end": "17:11",
+            "description": "撮影可能エリアあり"
+        },
+        {
+            "type": "live",
+            "act": "ネビュラ",
+            "stage_id": "entrance",
+            "start": "17:33",
+            "end": "18:33",
+            "description": "撮影可能エリアあり"
+        },
+        {
+            "type": "live",
+            "act": "ダークサイドグルーヴ",
+            "stage_id": "entrance",
+            "start": "18:51",
+            "end": "19:51"
+        },
+        {
+            "type": "live",
+            "act": "ペガサスファンタジー",
+            "stage_id": "entrance",
+            "start": "20:10",
+            "end": "21:10",
+            "emoji": "📸"
+        },
+        {
+            "type": "live",
+            "act": "サンライズビート",
+            "stage_id": "entrance",
+            "start": "21:25",
+            "end": "22:25",
+            "description": "撮影可能エリアあり"
+        },
+        {
+            "type": "live",
+            "act": "ランチタイムジャム",
+            "stage_id": "secret_room",
+            "start": "10:04",
+            "end": "11:04",
+            "description": "撮影可能エリアあり"
+        },
+        {
+            "type": "live",
+            "act": "ブラックホール",
+            "stage_id": "secret_room",
+            "start": "11:27",
+            "end": "12:12",
+            "description": "撮影可能エリアあり",
+            "emoji": "📸"
+        },
+        {
+            "type": "live",
+            "act": "ナイトフォール",
+            "stage_id": "secret_room",
+            "start": "12:40",
+            "end": "13:40",
+            "description": "撮影可能エリアあり"
+        },
+        {
+            "type": "live",
+            "act": "銀河鉄道999",
+            "stage_id": "secret_room",
+            "start": "14:09",
+            "end": "15:09",
+            "emoji": "📸"
+        },
+        {
+            "type": "live",
+            "act": "アンドロメダ",
+            "stage_id": "secret_room",
+            "start": "15:24",
+            "end": "16:09"
+        },
+        {
+            "type": "live",
+            "act": "未来少女",
+            "stage_id": "secret_room",
+            "start": "16:39",
+            "end": "17:09",
+            "description": "撮影可能エリアあり"
+        },
+        {
+            "type": "live",
+            "act": "ギャラクシーエンジェル",
+            "stage_id": "secret_room",
+            "start": "17:27",
+            "end": "18:27",
+            "description": "撮影可能エリアあり"
+        },
+        {
+            "type": "live",
+            "act": "デイライトドリーム",
+            "stage_id": "secret_room",
+            "start": "18:56",
+            "end": "19:41"
+        },
+        {
+            "type": "live",
+            "act": "パルサー",
+            "stage_id": "secret_room",
+            "start": "20:04",
+            "end": "21:04",
+            "description": "撮影可能エリアあり",
+            "emoji": "📸"
+        },
+        {
+            "type": "live",
+            "act": "ブレックファストクラブ",
+            "stage_id": "secret_room",
+            "start": "21:24",
+            "end": "22:09"
+        },
+        {
+            "type": "live",
+            "act": "アフターアワーズ",
+            "stage_id": "collab_stage",
+            "start": "10:18",
+            "end": "10:48",
+            "description": "撮影可能エリアあり"
+        },
+        {
+            "type": "live",
+            "act": "パルサー",
+            "stage_id": "collab_stage",
+            "start": "11:03",
+            "end": "11:48",
+            "description": "撮影可能エリアあり",
+            "emoji": "📸"
+        },
+        {
+            "type": "live",
+            "act": "未来少女",
+            "stage_id": "collab_stage",
+            "start": "12:12",
+            "end": "12:42",
+            "description": "撮影可能エリアあり",
+            "emoji": "📸"
+        },
+        {
+            "type": "live",
+            "act": "サマーヴァイブス",
+            "stage_id": "collab_stage",
+            "start": "13:02",
+            "end": "14:02",
+            "emoji": "📸"
+        },
+        {
+            "type": "live",
+            "act": "オリオン座",
+            "stage_id": "collab_stage",
+            "start": "14:28",
+            "end": "15:13",
+            "emoji": "📸"
+        },
+        {
+            "type": "live",
+            "act": "ネビュラ",
+            "stage_id": "collab_stage",
+            "start": "15:41",
+            "end": "16:11"
+        },
+        {
+            "type": "live",
+            "act": "ファイナルコール",
+            "stage_id": "collab_stage",
+            "start": "16:41",
+            "end": "17:26"
+        },
+        {
+            "type": "live",
+            "act": "アフタヌーンビート",
+            "stage_id": "collab_stage",
+            "start": "17:51",
+            "end": "18:21"
+        },
+        {
+            "type": "live",
+            "act": "イブニングスター",
+            "stage_id": "collab_stage",
+            "start": "18:50",
+            "end": "19:20",
+            "description": "撮影可能エリアあり"
+        },
+        {
+            "type": "live",
+            "act": "ブレックファストクラブ",
+            "stage_id": "collab_stage",
+            "start": "19:43",
+            "end": "20:13",
+            "description": "撮影可能エリアあり"
+        },
+        {
+            "type": "live",
+            "act": "デイライトドリーム",
+            "stage_id": "collab_stage",
+            "start": "20:43",
+            "end": "21:43",
+            "emoji": "📸"
+        },
+        {
+            "type": "live",
+            "act": "サンライズビート",
+            "stage_id": "rookie_stage",
+            "start": "10:30",
+            "end": "11:30"
+        },
+        {
+            "type": "live",
+            "act": "ミッドナイトエクスプレス",
+            "stage_id": "rookie_stage",
+            "start": "11:47",
+            "end": "12:32",
+            "description": "撮影可能エリアあり"
+        },
+        {
+            "type": "live",
+            "act": "ミッドナイトエクスプレス",
+            "stage_id": "rookie_stage",
+            "start": "12:53",
+            "end": "13:23"
+        },
+        {
+            "type": "live",
+            "act": "ランチタイムジャム",
+            "stage_id": "rookie_stage",
+            "start": "13:47",
+            "end": "14:32",
+            "emoji": "📸"
+        },
+        {
+            "type": "live",
+            "act": "イブニングライト",
+            "stage_id": "rookie_stage",
+            "start": "14:47",
+            "end": "15:17"
+        },
+        {
+            "type": "live",
+            "act": "アフタヌーンビート",
+            "stage_id": "rookie_stage",
+            "start": "15:37",
+            "end": "16:37",
+            "description": "撮影可能エリアあり"
+        },
+        {
+            "type": "live",
+            "act": "ミッドナイトドリーム",
+            "stage_id": "rookie_stage",
+            "start": "16:58",
+            "end": "17:58",
+            "emoji": "📸"
+        },
+        {
+            "type": "live",
+            "act": "イブニングライト",
+            "stage_id": "rookie_stage",
+            "start": "18:23",
+            "end": "19:08",
+            "description": "撮影可能エリアあり",
+            "emoji": "📸"
+        },
+        {
+            "type": "live",
+            "act": "銀河鉄道999",
+            "stage_id": "rookie_stage",
+            "start": "19:30",
+            "end": "20:30"
+        },
+        {
+            "type": "live",
+            "act": "モーニングスターズ",
+            "stage_id": "rookie_stage",
+            "start": "20:55",
+            "end": "21:40",
+            "description": "撮影可能エリアあり",
+            "emoji": "📸"
+        }
+    ],
+    "description": "イベントの補足情報です。\n詳細はこちら: https://example.com/info",
+    "official_url": "https://example.com"
+}

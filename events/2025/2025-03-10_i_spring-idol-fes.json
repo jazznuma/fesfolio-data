@@ -1,0 +1,75 @@
+{
+    "event_id": "2025-03-10_i_spring-idol-fes",
+    "event_name": "春のアイドルフェス2025",
+    "date": "2025-03-10",
+    "venue": "渋谷O-EAST",
+    "open_time": "13:00",
+    "start_time": "14:00",
+    "ticket_url": "https://example.com/ticket",
+    "stages": [
+        {
+            "stage_id": "main",
+            "stage_name": "Main Stage",
+            "description": "メインの大ステージ"
+        },
+        {
+            "stage_id": "sub",
+            "stage_name": "Sub Stage",
+            "description": "バーカウンター横のサブステージ"
+        },
+        {
+            "stage_id": "tokuten_a",
+            "stage_name": "特典会エリアA",
+            "description": "ロビー奥"
+        },
+        {
+            "stage_id": "tokuten_b",
+            "stage_name": "特典会エリアB",
+            "description": "2F通路"
+        }
+    ],
+    "timetable": [
+        {
+            "type": "live",
+            "act": "キラキラ☆スターズ",
+            "stage_id": "main",
+            "start": "14:00",
+            "end": "14:25"
+        },
+        {
+            "type": "live",
+            "act": "爆音シンデレラ",
+            "stage_id": "sub",
+            "start": "14:15",
+            "end": "14:40",
+            "emoji": "📸"
+        },
+        {
+            "type": "tokuten",
+            "act": "キラキラ☆スターズ",
+            "stage_id": "tokuten_a",
+            "start": "14:35",
+            "end": "15:35",
+            "description": "撮影可能エリアあり",
+            "emoji": "📸"
+        },
+        {
+            "type": "live",
+            "act": "未来少女",
+            "stage_id": "main",
+            "start": "14:35",
+            "end": "15:00",
+            "description": "撮影可能エリアあり",
+            "emoji": "📸"
+        },
+        {
+            "type": "tokuten",
+            "act": "爆音シンデレラ",
+            "stage_id": "tokuten_b",
+            "start": "14:50",
+            "end": "15:50"
+        }
+    ],
+    "description": "イベントの補足情報です。\n詳細はこちら: https://example.com/info",
+    "official_url": "https://example.com"
+}

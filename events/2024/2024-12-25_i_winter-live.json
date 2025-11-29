@@ -1,0 +1,36 @@
+{
+    "event_id": "2024-12-25_i_winter-live",
+    "event_name": "ウィンターライブ2024",
+    "date": "2024-12-25",
+    "venue": "東京ドーム",
+    "open_time": "17:00",
+    "start_time": "18:00",
+    "ticket_url": "https://example.com/ticket/winter-live",
+    "stages": [
+        {
+            "stage_id": "main",
+            "stage_name": "Main Stage",
+            "description": "メインステージ"
+        }
+    ],
+    "timetable": [
+        {
+            "type": "live",
+            "act": "スノーフレーク",
+            "stage_id": "main",
+            "start": "18:00",
+            "end": "18:30"
+        },
+        {
+            "type": "live",
+            "act": "ウィンターワンダーランド",
+            "stage_id": "main",
+            "start": "18:45",
+            "end": "19:15",
+            "description": "撮影可能エリアあり",
+            "emoji": "📸"
+        }
+    ],
+    "description": "イベントの補足情報です。\n詳細はこちら: https://example.com/info",
+    "official_url": "https://example.com"
+}

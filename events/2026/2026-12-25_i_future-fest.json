@@ -1,0 +1,42 @@
+{
+    "event_id": "2026-12-25_i_future-fest",
+    "event_name": "フューチャーフェス2026",
+    "date": "2026-12-25",
+    "venue": "未来アリーナ",
+    "open_time": "10:00",
+    "start_time": "11:00",
+    "ticket_url": "https://example.com/ticket/future-fest",
+    "stages": [
+        {
+            "stage_id": "galaxy",
+            "stage_name": "Galaxy Stage",
+            "description": "メインステージ"
+        },
+        {
+            "stage_id": "star",
+            "stage_name": "Star Stage",
+            "description": "サブステージ"
+        }
+    ],
+    "timetable": [
+        {
+            "type": "live",
+            "act": "未来のスター",
+            "stage_id": "galaxy",
+            "start": "11:00",
+            "end": "12:00",
+            "description": "撮影可能エリアあり",
+            "emoji": "📸"
+        },
+        {
+            "type": "live",
+            "act": "スペースバンド",
+            "stage_id": "star",
+            "start": "12:00",
+            "end": "13:00",
+            "description": "撮影可能エリアあり"
+        }
+    ],
+    "description": "イベントの補足情報です。\n詳細はこちら: https://example.com/info",
+    "official_url": "https://example.com"
+}

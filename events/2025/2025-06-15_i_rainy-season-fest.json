@@ -1,0 +1,40 @@
+{
+    "event_id": "2025-06-15_i_rainy-season-fest",
+    "event_name": "梅雨フェス2025",
+    "date": "2025-06-15",
+    "venue": "大阪城ホール",
+    "open_time": "14:00",
+    "start_time": "15:00",
+    "ticket_url": "https://example.com/ticket/rainy-fest",
+    "stages": [
+        {
+            "stage_id": "main",
+            "stage_name": "Main Stage",
+            "description": "メインステージ"
+        },
+        {
+            "stage_id": "sub",
+            "stage_name": "Sub Stage",
+            "description": "サブステージ"
+        }
+    ],
+    "timetable": [
+        {
+            "type": "live",
+            "act": "レインドロップス",
+            "stage_id": "main",
+            "start": "15:00",
+            "end": "15:30",
+            "emoji": "📸"
+        },
+        {
+            "type": "live",
+            "act": "アンブレラガールズ",
+            "stage_id": "sub",
+            "start": "15:15",
+            "end": "15:45"
+        }
+    ],
+    "description": "イベントの補足情報です。\n詳細はこちら: https://example.com/info",
+    "official_url": "https://example.com"
+}

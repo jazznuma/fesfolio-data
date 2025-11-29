@@ -1,0 +1,62 @@
+{
+    "event_id": "2025-04-15_i_rock-night",
+    "event_name": "ロックナイト2025",
+    "date": "2025-04-15",
+    "venue": "新宿LOFT",
+    "open_time": "18:00",
+    "start_time": "19:00",
+    "ticket_url": "https://example.com/ticket/rock-night",
+    "stages": [
+        {
+            "stage_id": "main",
+            "stage_name": "Main Stage",
+            "description": "メインステージ"
+        },
+        {
+            "stage_id": "tokuten_a",
+            "stage_name": "特典会エリア",
+            "description": "1F ロビー"
+        }
+    ],
+    "timetable": [
+        {
+            "type": "live",
+            "act": "サンダーガールズ",
+            "stage_id": "main",
+            "start": "19:00",
+            "end": "19:30"
+        },
+        {
+            "type": "live",
+            "act": "ブラックキャッツ",
+            "stage_id": "main",
+            "start": "19:45",
+            "end": "20:15",
+            "emoji": "📸"
+        },
+        {
+            "type": "tokuten",
+            "act": "サンダーガールズ",
+            "stage_id": "tokuten_a",
+            "start": "19:40",
+            "end": "20:40",
+            "emoji": "📸"
+        },
+        {
+            "type": "live",
+            "act": "レッドフレイム",
+            "stage_id": "main",
+            "start": "20:30",
+            "end": "21:00"
+        },
+        {
+            "type": "tokuten",
+            "act": "ブラックキャッツ",
+            "stage_id": "tokuten_a",
+            "start": "20:50",
+            "end": "21:50"
+        }
+    ],
+    "description": "イベントの補足情報です。\n詳細はこちら: https://example.com/info",
+    "official_url": "https://example.com"
+}

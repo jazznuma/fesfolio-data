@@ -1,0 +1,150 @@
+{
+    "event_id": "2025-05-20_i_summer-festival",
+    "event_name": "サマーフェスティバル2025",
+    "date": "2025-05-20",
+    "venue": "横浜アリーナ",
+    "open_time": "12:00",
+    "start_time": "13:00",
+    "ticket_url": "https://example.com/ticket/summer-fest",
+    "stages": [
+        {
+            "stage_id": "main",
+            "stage_name": "Main Stage",
+            "description": "メインステージ"
+        },
+        {
+            "stage_id": "sub",
+            "stage_name": "Sub Stage",
+            "description": "サブステージ"
+        },
+        {
+            "stage_id": "outdoor",
+            "stage_name": "Outdoor Stage",
+            "description": "屋外ステージ"
+        },
+        {
+            "stage_id": "tokuten_a",
+            "stage_name": "特典会A",
+            "description": "北側エリア"
+        },
+        {
+            "stage_id": "tokuten_b",
+            "stage_name": "特典会B",
+            "description": "南側エリア"
+        },
+        {
+            "stage_id": "tokuten_c",
+            "stage_name": "特典会C",
+            "description": "東側エリア"
+        }
+    ],
+    "timetable": [
+        {
+            "type": "live",
+            "act": "トロピカルビーチ",
+            "stage_id": "main",
+            "start": "13:00",
+            "end": "13:30",
+            "description": "撮影可能エリアあり",
+            "emoji": "📸"
+        },
+        {
+            "type": "live",
+            "act": "サマーブリーズ",
+            "stage_id": "sub",
+            "start": "13:15",
+            "end": "13:45"
+        },
+        {
+            "type": "live",
+            "act": "サンライズキッズ",
+            "stage_id": "outdoor",
+            "start": "13:00",
+            "end": "13:25",
+            "description": "撮影可能エリアあり"
+        },
+        {
+            "type": "tokuten",
+            "act": "トロピカルビーチ",
+            "stage_id": "tokuten_a",
+            "start": "13:40",
+            "end": "14:40",
+            "description": "撮影可能エリアあり"
+        },
+        {
+            "type": "live",
+            "act": "オーシャンウェーブ",
+            "stage_id": "main",
+            "start": "13:45",
+            "end": "14:15",
+            "description": "撮影可能エリアあり"
+        },
+        {
+            "type": "tokuten",
+            "act": "サマーブリーズ",
+            "stage_id": "tokuten_b",
+            "start": "14:00",
+            "end": "15:00"
+        },
+        {
+            "type": "live",
+            "act": "サンシャインガールズ",
+            "stage_id": "sub",
+            "start": "14:00",
+            "end": "14:30",
+            "description": "撮影可能エリアあり",
+            "emoji": "📸"
+        },
+        {
+            "type": "live",
+            "act": "ビーチボーイズ",
+            "stage_id": "outdoor",
+            "start": "13:40",
+            "end": "14:10",
+            "description": "撮影可能エリアあり",
+            "emoji": "📸"
+        },
+        {
+            "type": "tokuten",
+            "act": "オーシャンウェーブ",
+            "stage_id": "tokuten_a",
+            "start": "14:50",
+            "end": "15:50",
+            "emoji": "📸"
+        },
+        {
+            "type": "live",
+            "act": "コーラルリーフ",
+            "stage_id": "main",
+            "start": "14:30",
+            "end": "15:00"
+        },
+        {
+            "type": "tokuten",
+            "act": "サンシャインガールズ",
+            "stage_id": "tokuten_c",
+            "start": "14:45",
+            "end": "15:45",
+            "emoji": "📸"
+        },
+        {
+            "type": "live",
+            "act": "アイランドドリーム",
+            "stage_id": "sub",
+            "start": "14:45",
+            "end": "15:15",
+            "description": "撮影可能エリアあり",
+            "emoji": "📸"
+        },
+        {
+            "type": "live",
+            "act": "パラダイスウェーブ",
+            "stage_id": "outdoor",
+            "start": "14:25",
+            "end": "14:55",
+            "emoji": "📸"
+        }
+    ],
+    "description": "イベントの補足情報です。\n詳細はこちら: https://example.com/info",
+    "official_url": "https://example.com"
+}
