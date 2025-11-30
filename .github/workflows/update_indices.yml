@@ -8,6 +8,9 @@ on:
       - 'events/**/*.json'
       - '!events/**/index.json'
 
+permissions:
+  contents: write
+
 jobs:
   update-indices:
     runs-on: ubuntu-latest
@@ -105,3 +108,35 @@ jobs:
           git add events/**/index.json
           git commit -m "chore: auto-update index files"
           git push
+      
+      - name: Checkout gh-pages branch
+        uses: actions/checkout@v4
+        with:
+          ref: gh-pages
+          path: gh-pages
+      
+      - name: Sync events directory to gh-pages
+        run: |
+          # Remove existing events directory in gh-pages
+          rm -rf gh-pages/events
+          
+          # Copy events directory from main to gh-pages (with updated index.json)
+          cp -r events gh-pages/events
+          
+          echo "✅ Synced events/ directory to gh-pages"
+      
+      - name: Commit and push to gh-pages
+        run: |
+          cd gh-pages
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add events
+          
+          # Check if there are changes to commit
+          if git diff --staged --quiet; then
+            echo "No changes to commit to gh-pages"
+          else
+            git commit -m "🔄 Sync events/ from main branch (with updated index.json)"
+            git push origin gh-pages
+            echo "✅ Successfully pushed to gh-pages"
+          fi
