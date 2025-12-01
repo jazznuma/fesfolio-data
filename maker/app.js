@@ -12,7 +12,99 @@ document.addEventListener('DOMContentLoaded', function() {
   addTimetableEntry();
   
   // 開催日の初期値は設定しない（ユーザが必ず選択する）
+  
+  // Flatpickrで日付と時間をカスタマイズ
+  initializeFlatpickr();
 });
+
+// Flatpickr初期化
+function initializeFlatpickr() {
+  // 日付ピッカー
+  const dateInput = document.querySelector('#eventDate');
+  flatpickr(dateInput, {
+    locale: 'ja',
+    dateFormat: 'Y-m-d',
+    theme: 'light',
+    disableMobile: true,
+    allowInput: true,
+    onChange: function(selectedDates, dateStr, instance) {
+      // 必須バリデーション更新
+      instance.input.dispatchEvent(new Event('input', { bubbles: true }));
+    },
+    onReady: function(selectedDates, dateStr, instance) {
+      // 初期化時にプレースホルダを復元
+      if (!instance.input.value) {
+        instance.input.setAttribute('placeholder', '2025-12-01');
+      }
+    }
+  });
+  
+  // 開場・開演時間ピッカー（5分刻み、マウスで選びやすく）
+  const openTimePicker = flatpickr('#openTime', {
+    enableTime: true,
+    noCalendar: true,
+    dateFormat: 'H:i',
+    time_24hr: true,
+    theme: 'light',
+    disableMobile: true,
+    allowInput: true,
+    minuteIncrement: 5,
+    onReady: function(selectedDates, dateStr, instance) {
+      // 初期化時にプレースホルダを復元
+      if (!instance.input.value) {
+        instance.input.setAttribute('placeholder', '12:00');
+      }
+    },
+    onChange: function(selectedDates, dateStr, instance) {
+      updateStartTimeFromOpen();
+    }
+  });
+  
+  const startTimePicker = flatpickr('#startTime', {
+    enableTime: true,
+    noCalendar: true,
+    dateFormat: 'H:i',
+    time_24hr: true,
+    theme: 'light',
+    disableMobile: true,
+    allowInput: true,
+    minuteIncrement: 5,
+    onReady: function(selectedDates, dateStr, instance) {
+      // 初期化時にプレースホルダを復元
+      if (!instance.input.value) {
+        instance.input.setAttribute('placeholder', '12:30');
+      }
+    },
+    onChange: function(selectedDates, dateStr, instance) {
+      validateStartTime();
+      updateFirstTimetableFromStart();
+    }
+  });
+  
+  // タイムテーブル行の時間ピッカーは動的に追加されるので、後で個別に初期化
+}
+
+// タイムテーブル行の時間入力にFlatpickrを適用
+function initTimePickerForEntry(element) {
+  if (element && !element._flatpickr) {
+    flatpickr(element, {
+      enableTime: true,
+      noCalendar: true,
+      dateFormat: 'H:i',
+      time_24hr: true,
+      theme: 'light',
+      disableMobile: true,
+      allowInput: true,
+      onReady: function(selectedDates, dateStr, instance) {
+        // 初期化時にプレースホルダを復元
+        if (!instance.input.value) {
+          instance.input.setAttribute('placeholder', '12:00');
+        }
+      },
+      minuteIncrement: 5
+    });
+  }
+}
 
 // 開場時間から開演時間を自動設定（フォーカスが外れた時のみ）
 function updateStartTimeFromOpen() {
@@ -27,11 +119,90 @@ function updateStartTimeFromOpen() {
       // 開場時間 + 30分 = 開演時間
       startTimeInput.value = addMinutes(openTime, 30);
       updateFirstTimetableFromStart();
+    } else {
+      // 開演時間が既に入力されている場合はバリデーション
+      validateStartTime();
     }
   } else {
     // 開場時間が空の場合は開演時間を無効化
     startTimeInput.disabled = true;
     startTimeInput.value = '';
+  }
+}
+
+// 開演時間が開場時間より後かをチェック
+function validateStartTime() {
+  const openTime = document.getElementById('openTime').value;
+  const startTimeInput = document.getElementById('startTime');
+  const startTime = startTimeInput.value;
+  
+  if (!openTime || !startTime) return true;
+  
+  // 時刻を分に変換して比較
+  const openMinutes = timeToMinutes(openTime);
+  const startMinutes = timeToMinutes(startTime);
+  
+  if (startMinutes <= openMinutes) {
+    alert('開演時刻は開場時刻より後に設定してください');
+    // 開場時間 + 30分に自動修正
+    startTimeInput.value = addMinutes(openTime, 30);
+    return false;
+  }
+  
+  return true;
+}
+
+// URLのセキュリティバリデーション
+function validateUrl(input) {
+  const url = input.value.trim();
+  
+  // 空の場合はOK（任意項目）
+  if (!url) {
+    return true;
+  }
+  
+  if (!isSecureUrl(url)) {
+    alert('URLは http:// または https:// で始まる必要があります\n危険なスキーム（javascript:, data: など）は使用できません');
+    input.value = '';
+    return false;
+  }
+  
+  return true;
+}
+
+// URLが安全かチェック（ヘルパー関数）
+function isSecureUrl(url) {
+  if (!url) return true; // 空はOK
+  
+  try {
+    const urlObj = new URL(url);
+    
+    // http/https のみ許可
+    if (urlObj.protocol !== 'http:' && urlObj.protocol !== 'https:') {
+      return false;
+    }
+    
+    // javascript: や data: などの危険なスキームを二重チェック
+    const lowerUrl = url.toLowerCase();
+    const dangerousPatterns = [
+      'javascript:',
+      'data:',
+      'vbscript:',
+      'file:',
+      'about:',
+      'blob:'
+    ];
+    
+    for (const pattern of dangerousPatterns) {
+      if (lowerUrl.includes(pattern)) {
+        return false;
+      }
+    }
+    
+    return true;
+  } catch (e) {
+    // URLとして不正な形式
+    return false;
   }
 }
 
@@ -65,8 +236,8 @@ function addStage() {
     <div class="stage-row">
       <span class="entry-num">1</span>
       <input type="hidden" class="stage-id" value="">
-      <input type="text" class="stage-name" placeholder="ステージ名" required oninput="updateStageId(this)">
-      <input type="text" class="stage-description" placeholder="説明（任意）">
+      <input type="text" class="stage-name" placeholder="メインステージ" required oninput="updateStageId(this)">
+      <input type="text" class="stage-description" placeholder="">
       <button type="button" class="btn-remove-icon" onclick="removeStage(${stageCount})" title="削除">×</button>
     </div>
   `;
@@ -198,9 +369,9 @@ function addTimetableEntry(data = {}) {
       <input type="time" class="tt-start" value="${startTime}" required>
       <span class="time-separator">〜</span>
       <input type="time" class="tt-end" value="${endTime}" required>
-      <input type="text" class="tt-act" value="${data.act || ''}" placeholder="出演者名" required>
-      <input type="text" class="tt-description" value="${data.description || ''}" placeholder="説明">
-      <input type="text" class="tt-emoji" value="${data.emoji || ''}" placeholder="🎤" maxlength="2">
+      <input type="text" class="tt-act" value="${data.act || ''}" placeholder="サンプル Project" required>
+      <input type="text" class="tt-description" value="${data.description || ''}" placeholder="">
+      <input type="text" class="tt-emoji" value="${data.emoji || ''}" placeholder="" maxlength="2">
       <button type="button" class="btn-insert-icon" onclick="insertTimetableAfter(${timetableCount})" title="この行の後に追加">+</button>
       <button type="button" class="btn-remove-icon" onclick="removeTimetable(${timetableCount})" title="削除">×</button>
       <span class="bdg bdg-combo" title="ステージ/タイプ"></span>
@@ -213,6 +384,10 @@ function addTimetableEntry(data = {}) {
   const startInput = entryDiv.querySelector('.tt-start');
   const endInput = entryDiv.querySelector('.tt-end');
   
+  // Flatpickrを時間入力に適用
+  initTimePickerForEntry(startInput);
+  initTimePickerForEntry(endInput);
+  
   const updateEndTime = function() {
     if (this.value) {
       const currentEnd = endInput.value;
@@ -221,6 +396,10 @@ function addTimetableEntry(data = {}) {
       // 終了時間が空か、開始時間より前の場合は自動更新
       if (!currentEnd || currentEnd <= this.value) {
         endInput.value = newEnd;
+        // Flatpickrの値も更新
+        if (endInput._flatpickr) {
+          endInput._flatpickr.setDate(newEnd, false);
+        }
       }
     }
   };
@@ -269,9 +448,9 @@ function insertTimetableAfter(id) {
       <input type="time" class="tt-start" value="${newStartTime}" required>
       <span class="time-separator">〜</span>
       <input type="time" class="tt-end" value="${newEndTime}" required>
-      <input type="text" class="tt-act" value="" placeholder="出演者名" required>
-      <input type="text" class="tt-description" value="" placeholder="説明">
-      <input type="text" class="tt-emoji" value="" placeholder="🎤" maxlength="2">
+      <input type="text" class="tt-act" value="" placeholder="〇〇ちゃん" required>
+      <input type="text" class="tt-description" value="" placeholder="">
+      <input type="text" class="tt-emoji" value="" placeholder="" maxlength="2">
       <button type="button" class="btn-insert-icon" onclick="insertTimetableAfter(${timetableCount})" title="この行の後に追加">+</button>
       <button type="button" class="btn-remove-icon" onclick="removeTimetable(${timetableCount})" title="削除">×</button>
       <span class="bdg bdg-combo" title="ステージ/タイプ"></span>
@@ -285,6 +464,10 @@ function insertTimetableAfter(id) {
   const startInput = entryDiv.querySelector('.tt-start');
   const endInput = entryDiv.querySelector('.tt-end');
   
+  // Flatpickrを時間入力に適用
+  initTimePickerForEntry(startInput);
+  initTimePickerForEntry(endInput);
+  
   const updateEndTime = function() {
     if (this.value) {
       const currentEnd = endInput.value;
@@ -292,6 +475,10 @@ function insertTimetableAfter(id) {
       
       if (!currentEnd || currentEnd <= this.value) {
         endInput.value = newEnd;
+        // Flatpickrの値も更新
+        if (endInput._flatpickr) {
+          endInput._flatpickr.setDate(newEnd, false);
+        }
       }
     }
   };
@@ -505,6 +692,17 @@ function generateJSON() {
   // バリデーション
   if (!eventName || !eventDate || !venue) {
     alert('必須項目を入力してください（イベント名、開催日、会場名）');
+    return;
+  }
+  
+  // URLセキュリティチェック
+  if (officialUrl && !isSecureUrl(officialUrl)) {
+    alert('公式URLが安全ではありません。http/https のみ使用できます。');
+    return;
+  }
+  
+  if (ticketUrl && !isSecureUrl(ticketUrl)) {
+    alert('チケットURLが安全ではありません。http/https のみ使用できます。');
     return;
   }
   
