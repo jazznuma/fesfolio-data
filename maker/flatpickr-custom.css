@@ -1,0 +1,95 @@
+/* Flatpickr カスタムテーマ - FesFolio用 */
+.flatpickr-calendar {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 10px 40px rgba(102, 126, 234, 0.2), 0 0 0 1px rgba(102, 126, 234, 0.1);
+  border: none;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.flatpickr-months {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 12px 12px 0 0;
+  padding: 12px 0;
+}
+
+.flatpickr-current-month,
+.flatpickr-current-month .flatpickr-monthDropdown-months,
+.flatpickr-current-month input.cur-year {
+  color: white !important;
+  font-weight: 600;
+}
+
+.flatpickr-prev-month,
+.flatpickr-next-month {
+  fill: white !important;
+}
+
+.flatpickr-prev-month:hover svg,
+.flatpickr-next-month:hover svg {
+  fill: rgba(255, 255, 255, 0.8) !important;
+}
+
+span.flatpickr-weekday {
+  color: #667eea;
+  font-weight: 700;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.flatpickr-day {
+  color: #333;
+  font-weight: 500;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+}
+
+.flatpickr-day:hover {
+  background: #e8eaf6 !important;
+  border-color: #e8eaf6 !important;
+  transform: scale(1.05);
+}
+
+.flatpickr-day.today {
+  border-color: #667eea !important;
+  background: rgba(102, 126, 234, 0.1);
+  font-weight: 700;
+}
+
+.flatpickr-day.today:hover {
+  background: #667eea !important;
+  color: white !important;
+}
+
+.flatpickr-day.selected,
+.flatpickr-day.selected:hover {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+  border-color: transparent !important;
+  color: white !important;
+  font-weight: 700;
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
+}
+
+.flatpickr-day.prevMonthDay,
+.flatpickr-day.nextMonthDay {
+  color: #ccc;
+}
+
+.flatpickr-day.flatpickr-disabled,
+.flatpickr-day.flatpickr-disabled:hover {
+  color: #ddd !important;
+}
+
+.flatpickr-time {
+  border-top: 1px solid #e8eaf6;
+}
+
+.flatpickr-time input {
+  color: #667eea;
+  font-weight: 600;
+}
+
+.flatpickr-time input:hover,
+.flatpickr-time .flatpickr-am-pm:hover {
+  background: #e8eaf6;
+}

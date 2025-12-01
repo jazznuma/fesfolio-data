@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>イベントJSON作成ツール - FesFolio</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -17,39 +18,39 @@
       <h2>基本情報</h2>
       <div class="form-group">
         <label for="eventName">イベント名 *</label>
-        <input type="text" id="eventName" placeholder="例: 2025アイドル年末フェス in KANDA SQUARE HALL" required>
+        <input type="text" id="eventName" placeholder="2025アイドル年末フェス in SAMPLE HALL" required>
       </div>
       <div class="form-row-3">
         <div class="form-group">
           <label for="eventDate">開催日 *</label>
-          <input type="date" id="eventDate" required>
+          <input type="text" id="eventDate" placeholder="2025-12-01" required>
         </div>
         <div class="form-group">
           <label for="openTime">開場 *</label>
-          <input type="time" id="openTime" onchange="updateStartTimeFromOpen()" required>
+          <input type="text" id="openTime" placeholder="12:00" onchange="updateStartTimeFromOpen()" required>
         </div>
         <div class="form-group">
           <label for="startTime">開演 *</label>
-          <input type="time" id="startTime" onchange="updateFirstTimetableFromStart()" disabled required>
+          <input type="text" id="startTime" placeholder="12:30" onchange="validateStartTime(); updateFirstTimetableFromStart();" disabled required>
         </div>
       </div>
       <div class="form-group">
         <label for="venue">会場名 *</label>
-        <input type="text" id="venue" placeholder="例: KANDA SQUARE HALL" required>
+        <input type="text" id="venue" placeholder="SAMPLE HALL" required>
       </div>
       <div class="form-row">
         <div class="form-group">
           <label for="officialUrl">公式URL</label>
-          <input type="url" id="officialUrl" placeholder="https://example.com/">
+          <input type="url" id="officialUrl" placeholder="" onchange="validateUrl(this)">
         </div>
         <div class="form-group">
           <label for="ticketUrl">チケットURL</label>
-          <input type="url" id="ticketUrl" placeholder="https://example.com/ticket">
+          <input type="url" id="ticketUrl" placeholder="" onchange="validateUrl(this)">
         </div>
       </div>
       <div class="form-group">
         <label for="description">説明</label>
-        <textarea id="description" rows="2" placeholder="イベントの詳細説明"></textarea>
+        <textarea id="description" rows="2" placeholder=""></textarea>
       </div>
     </div>
 
@@ -67,7 +68,7 @@
       </div>
       
       <div id="manualTab" class="tab-content active">
-        <div class="timetable-header">
+        <div class="section">
           <div class="form-row-3">
             <div class="form-group">
               <label for="defaultStage">ステージ *</label>
@@ -102,6 +103,18 @@
           </div>
           <p class="hint">※ ステージとタイプを選択すると、以降のエントリーに自動適用されます</p>
         </div>
+        <div class="timetable-header">
+          <span class="header-num">#</span>
+          <span class="header-time">開始</span>
+          <span class="header-separator">〜</span>
+          <span class="header-time">終了</span>
+          <span class="header-act">出演者</span>
+          <span class="header-desc">説明</span>
+          <span class="header-emoji">🎵</span>
+          <span class="header-btn"></span>
+          <span class="header-btn"></span>
+          <span class="header-badge">ステージ・タイプ</span>
+        </div>
         <div id="timetableContainer"></div>
         <button type="button" class="btn-secondary" onclick="addTimetableEntry()">+ エントリー追加</button>
       </div>
@@ -127,7 +140,7 @@
         </div>
         <div class="form-group">
           <label for="bulkInput">タイムテーブルテキスト</label>
-          <textarea id="bulkInput" rows="10" placeholder="例:&#10;10:10〜10:30　セレインノート&#10;10:30〜10:50　おーらぴっと&#10;10:50〜11:10　Sisters あにま"></textarea>
+          <textarea id="bulkInput" rows="10" placeholder="例:&#10;10:10〜10:30　サンプルノート&#10;10:30〜10:50　名古屋レボリューション&#10;10:50〜11:10　サンプル Project"></textarea>
         </div>
         <button type="button" class="btn-primary" onclick="parseBulkInput()">一括追加</button>
       </div>
@@ -144,6 +157,8 @@
     </div>
   </div>
 
+  <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+  <script src="https://cdn.jsdelivr.net/npm/flatpickr/dist/l10n/ja.js"></script>
   <script src="app.js"></script>
 </body>
 </html>

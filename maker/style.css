@@ -107,6 +107,189 @@ header p {
   background-color: white;
 }
 
+/* 日付と時間の入力をおしゃれに */
+.form-group input[type="date"],
+.form-group input[type="time"],
+.form-group input[type="text"]#eventDate,
+.form-group input[type="text"]#openTime,
+.form-group input[type="text"]#startTime {
+  padding: 0.7rem 0.8rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #333;
+  background: linear-gradient(135deg, #f8f9ff 0%, #ffffff 100%);
+  border: 2px solid #e0e5ff;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.form-group input[type="date"]:hover,
+.form-group input[type="time"]:hover,
+.form-group input[type="text"]#eventDate:hover,
+.form-group input[type="text"]#openTime:hover,
+.form-group input[type="text"]#startTime:hover {
+  border-color: #667eea;
+  background: linear-gradient(135deg, #ffffff 0%, #f8f9ff 100%);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.15);
+}
+
+.form-group input[type="date"]:focus,
+.form-group input[type="time"]:focus,
+.form-group input[type="text"]#eventDate:focus,
+.form-group input[type="text"]#openTime:focus,
+.form-group input[type="text"]#startTime:focus {
+  border-color: #667eea;
+  background: white;
+  box-shadow: 0 0 0 4px rgba(102, 126, 234, 0.1), 0 4px 12px rgba(102, 126, 234, 0.2);
+  transform: translateY(-1px);
+}
+
+/* カレンダー/時計アイコンのカスタマイズ */
+.form-group input[type="date"]::-webkit-calendar-picker-indicator,
+.form-group input[type="time"]::-webkit-calendar-picker-indicator {
+  cursor: pointer;
+  opacity: 0.7;
+  transition: all 0.2s;
+  padding: 4px;
+  border-radius: 4px;
+}
+
+.form-group input[type="date"]::-webkit-calendar-picker-indicator:hover,
+.form-group input[type="time"]::-webkit-calendar-picker-indicator:hover {
+  opacity: 1;
+  background: rgba(102, 126, 234, 0.1);
+}
+
+/* Flatpickr カスタムテーマ */
+.flatpickr-calendar {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 10px 40px rgba(102, 126, 234, 0.2), 0 0 0 1px rgba(102, 126, 234, 0.1) !important;
+  border: none !important;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.flatpickr-months {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 12px 12px 0 0;
+  padding: 12px 0;
+}
+
+.flatpickr-current-month,
+.flatpickr-current-month .flatpickr-monthDropdown-months,
+.flatpickr-current-month input.cur-year {
+  color: white !important;
+  font-weight: 600;
+}
+
+.flatpickr-prev-month,
+.flatpickr-next-month {
+  fill: white !important;
+}
+
+.flatpickr-prev-month:hover svg,
+.flatpickr-next-month:hover svg {
+  fill: rgba(255, 255, 255, 0.8) !important;
+}
+
+span.flatpickr-weekday {
+  color: #667eea !important;
+  font-weight: 700 !important;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.flatpickr-day {
+  color: #333;
+  font-weight: 500;
+  border-radius: 8px !important;
+  transition: all 0.2s ease;
+}
+
+.flatpickr-day:hover {
+  background: #e8eaf6 !important;
+  border-color: #e8eaf6 !important;
+  transform: scale(1.05);
+}
+
+.flatpickr-day.today {
+  border-color: #667eea !important;
+  background: rgba(102, 126, 234, 0.1) !important;
+  font-weight: 700;
+}
+
+.flatpickr-day.today:hover {
+  background: #667eea !important;
+  color: white !important;
+}
+
+.flatpickr-day.selected,
+.flatpickr-day.selected:hover {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+  border-color: transparent !important;
+  color: white !important;
+  font-weight: 700;
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3) !important;
+}
+
+.flatpickr-day.prevMonthDay,
+.flatpickr-day.nextMonthDay {
+  color: #ccc !important;
+}
+
+.flatpickr-day.flatpickr-disabled,
+.flatpickr-day.flatpickr-disabled:hover {
+  color: #ddd !important;
+}
+
+.flatpickr-time {
+  border-top: 1px solid #e8eaf6 !important;
+  height: auto !important;
+  max-height: none !important;
+}
+
+.flatpickr-time input {
+  color: #667eea !important;
+  font-weight: 600 !important;
+  font-size: 18px !important;
+  height: 50px !important;
+}
+
+.flatpickr-time .flatpickr-time-separator {
+  font-size: 18px !important;
+  font-weight: 600 !important;
+  color: #667eea !important;
+}
+
+.flatpickr-time input:hover,
+.flatpickr-time .flatpickr-am-pm:hover {
+  background: #e8eaf6 !important;
+}
+
+.flatpickr-time .numInputWrapper span {
+  opacity: 1 !important;
+  width: 18px !important;
+}
+
+.flatpickr-time .numInputWrapper span:hover {
+  background: rgba(102, 126, 234, 0.2) !important;
+}
+
+.flatpickr-time .numInputWrapper span:after {
+  border-left: 5px solid transparent !important;
+  border-right: 5px solid transparent !important;
+}
+
+.flatpickr-time .numInputWrapper span.arrowUp:after {
+  border-bottom: 5px solid #667eea !important;
+}
+
+.flatpickr-time .numInputWrapper span.arrowDown:after {
+  border-top: 5px solid #667eea !important;
+}
+
 .form-row {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -134,7 +317,58 @@ header p {
 }
 .bdg-stage { justify-self: start; }
 .bdg-type { justify-self: start; }
-.bdg-combo { justify-self: end; max-width: 160px; overflow: hidden; text-overflow: ellipsis; }
+.bdg-combo { 
+  justify-self: end; 
+  max-width: 160px; 
+  overflow: hidden; 
+  text-overflow: ellipsis; 
+  white-space: nowrap;
+}
+
+/* レスポンシブ対応 */
+@media (max-width: 1200px) {
+  .container {
+    max-width: 950px;
+  }
+  
+  .entry-row {
+    grid-template-columns: 32px 100px 20px 100px 1fr 0.8fr 50px 36px 36px 120px;
+  }
+  
+  .timetable-header {
+    grid-template-columns: 32px 100px 20px 100px 1fr 0.8fr 50px 36px 36px 120px;
+    font-size: 0.75rem;
+  }
+  
+  .bdg-combo {
+    max-width: 120px;
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 950px) {
+  .container {
+    max-width: 100%;
+  }
+  
+  .entry-row {
+    grid-template-columns: 28px 90px 20px 90px 1fr 0.7fr 40px 32px 32px 100px;
+    gap: 0.3rem;
+  }
+  
+  .timetable-header {
+    grid-template-columns: 28px 90px 20px 90px 1fr 0.7fr 40px 32px 32px 100px;
+    gap: 0.3rem;
+    font-size: 0.7rem;
+    padding: 0.6rem 0.3rem;
+  }
+  
+  .bdg-combo {
+    max-width: 100px;
+    font-size: 0.65rem;
+  }
+}
+
 .form-group {
   margin-bottom: 0.8rem;
 }
@@ -227,6 +461,34 @@ header p {
   border: 1px solid #e0e0e0;
 }
 
+/* タイムテーブルヘッダー */
+.timetable-header {
+  display: grid;
+  grid-template-columns: 36px 120px 24px 120px 1.2fr 1fr 60px 40px 40px 160px;
+  gap: 0.5rem;
+  align-items: center;
+  padding: 0.75rem 0.5rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  font-weight: 600;
+  font-size: 0.85rem;
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+}
+
+.timetable-header span {
+  text-align: center;
+}
+
+.header-act,
+.header-desc {
+  text-align: left;
+}
+
+.header-badge {
+  text-align: right;
+}
+
 .entry-row {
   display: grid;
   grid-template-columns: 36px 120px 24px 120px 1.2fr 1fr 60px 40px 40px 160px;
@@ -247,12 +509,43 @@ header p {
   font-size: 0.9rem;
 }
 
+/* タイムテーブル行の時間入力もおしゃれに */
 .entry-row input[type="time"] {
-  padding: 0.4rem;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  font-size: 0.9rem;
-  transition: all 0.3s;
+  padding: 0.5rem 0.6rem;
+  border: 2px solid #e0e5ff;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  background: linear-gradient(135deg, #f8f9ff 0%, #ffffff 100%);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.entry-row input[type="time"]:hover {
+  border-color: #667eea;
+  background: linear-gradient(135deg, #ffffff 0%, #f8f9ff 100%);
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(102, 126, 234, 0.12);
+}
+
+.entry-row input[type="time"]:focus {
+  border-color: #667eea;
+  background: white;
+  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1), 0 2px 8px rgba(102, 126, 234, 0.15);
+  transform: translateY(-1px);
+}
+
+.entry-row input[type="time"]::-webkit-calendar-picker-indicator {
+  cursor: pointer;
+  opacity: 0.6;
+  transition: all 0.2s;
+  padding: 2px;
+  border-radius: 3px;
+}
+
+.entry-row input[type="time"]::-webkit-calendar-picker-indicator:hover {
+  opacity: 1;
+  background: rgba(102, 126, 234, 0.1);
 }
 
 .entry-row input[type="text"] {
@@ -470,24 +763,52 @@ header p {
     font-size: 1.5rem;
   }
   
+  /* タイムテーブルヘッダーを非表示 */
+  .timetable-header {
+    display: none;
+  }
+  
   .stage-row {
     grid-template-columns: 1fr;
     gap: 0.4rem;
   }
   
   .entry-row {
-    grid-template-columns: 1fr;
-    gap: 0.4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 1rem;
+    background: #f8f9fa;
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+    position: relative;
   }
   
-  .entry-num,
-  .time-separator {
-    display: none;
+  .timetable-entry {
+    margin-bottom: 0.5rem;
   }
   
-  .btn-remove-icon {
+  .entry-num {
     position: absolute;
     top: 0.5rem;
-    right: 0.5rem;
+    left: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  .time-separator {
+    display: inline;
+    margin: 0 0.3rem;
+  }
+  
+  .bdg-combo {
+    max-width: 100%;
+    justify-self: start;
+    margin-top: 0.5rem;
+  }
+  
+  .btn-insert-icon,
+  .btn-remove-icon {
+    position: static;
+    margin-top: 0.5rem;
   }
 }
