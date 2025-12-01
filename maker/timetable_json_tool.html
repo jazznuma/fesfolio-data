@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>イベントJSON作成ツール - FesFolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>イベントJSON作成ツール</h1>
+      <p>オフラインで動作するイベントデータ作成ツール</p>
+    </header>
+
+    <div class="section">
+      <h2>基本情報</h2>
+      <div class="form-group">
+        <label for="eventName">イベント名 *</label>
+        <input type="text" id="eventName" placeholder="例: 2025アイドル年末フェス in KANDA SQUARE HALL" required>
+      </div>
+      <div class="form-group">
+        <label for="eventDate">開催日 *</label>
+        <input type="date" id="eventDate" required>
+      </div>
+      <div class="form-group">
+        <label for="venue">会場名 *</label>
+        <input type="text" id="venue" placeholder="例: KANDA SQUARE HALL" required>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label for="openTime">開場時刻</label>
+          <input type="time" id="openTime">
+        </div>
+        <div class="form-group">
+          <label for="startTime">開演時刻</label>
+          <input type="time" id="startTime">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="officialUrl">公式URL</label>
+        <input type="url" id="officialUrl" placeholder="https://example.com/">
+      </div>
+      <div class="form-group">
+        <label for="ticketUrl">チケットURL</label>
+        <input type="url" id="ticketUrl" placeholder="https://example.com/ticket">
+      </div>
+      <div class="form-group">
+        <label for="description">イベント説明</label>
+        <textarea id="description" rows="3" placeholder="イベントの詳細説明"></textarea>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>ステージ情報</h2>
+      <div id="stagesContainer"></div>
+      <button type="button" class="btn-secondary" onclick="addStage()">+ ステージ追加</button>
+    </div>
+
+    <div class="section">
+      <h2>タイムテーブル</h2>
+      <div class="tabs">
+        <button class="tab-btn active" onclick="switchTab('manual')">手動入力</button>
+        <button class="tab-btn" onclick="switchTab('bulk')">一括入力（OCR対応）</button>
+      </div>
+      
+      <div id="manualTab" class="tab-content active">
+        <div class="timetable-header">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="defaultStage">デフォルトステージ *</label>
+              <select id="defaultStage" onchange="updateDefaultValues()">
+                <option value="">-- 選択 --</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="defaultType">デフォルトタイプ *</label>
+              <select id="defaultType" onchange="updateDefaultValues()">
+                <option value="live">ライブ</option>
+                <option value="tokuten">特典会</option>
+                <option value="goods">物販</option>
+                <option value="other">その他</option>
+              </select>
+            </div>
+          </div>
+          <p class="hint">※ ステージとタイプを選択すると、以降のエントリーに自動適用されます</p>
+        </div>
+        <div id="timetableContainer"></div>
+        <button type="button" class="btn-secondary" onclick="addTimetableEntry()">+ エントリー追加</button>
+      </div>
+
+      <div id="bulkTab" class="tab-content">
+        <p class="hint">OCR結果をそのまま貼り付けてください。各行を自動解析します。</p>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="bulkStageId">ステージ *</label>
+            <select id="bulkStageId">
+              <option value="">-- 選択 --</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="bulkType">タイプ *</label>
+            <select id="bulkType">
+              <option value="live">ライブ</option>
+              <option value="tokuten">特典会</option>
+              <option value="goods">物販</option>
+              <option value="other">その他</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="bulkInput">タイムテーブルテキスト</label>
+          <textarea id="bulkInput" rows="10" placeholder="例:&#10;10:10〜10:30　セレインノート&#10;10:30〜10:50　おーらぴっと&#10;10:50〜11:10　Sisters あにま"></textarea>
+        </div>
+        <button type="button" class="btn-primary" onclick="parseBulkInput()">一括追加</button>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>プレビュー</h2>
+      <pre id="jsonOutput"></pre>
+    </div>
+
+    <div class="actions">
+      <button type="button" class="btn-primary" onclick="generateJSON()">JSONを生成</button>
+      <button type="button" class="btn-primary" id="downloadBtn" style="display:none;" onclick="downloadJSON()">JSONをダウンロード</button>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
