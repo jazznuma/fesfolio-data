@@ -1,0 +1,96 @@
+* { box-sizing: border-box; }
+html, body { height: 100%; }
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Hiragino Sans", "Noto Sans JP", "Yu Gothic", sans-serif;
+  color: #222;
+  background: #f7f7f9;
+}
+body.dark { color: #eee; background: #121212; }
+
+header { padding: 12px 16px; border-bottom: 1px solid #ddd; background: #fff; }
+body.dark header { border-color: #333; background: #1b1b1b; }
+h1 { margin: 0 0 8px; font-size: 20px; }
+.actions { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.hint { margin: 4px 0 0; color: #666; }
+body.dark .hint { color: #aaa; }
+
+.file-input { display: inline-flex; align-items: center; gap: 8px; padding: 6px 10px; border: 1px solid #ccc; border-radius: 6px; background: #fafafa; cursor: pointer; }
+.file-input input { display: none; }
+button { padding: 6px 10px; border: 1px solid #ccc; border-radius: 6px; background: #fafafa; cursor: pointer; }
+button:hover, .file-input:hover { background: #f0f0f0; }
+body.dark button, body.dark .file-input { border-color: #333; background: #222; }
+body.dark button:hover, body.dark .file-input:hover { background: #333; }
+
+main { padding: 12px 16px; }
+.drop-zone { border: 2px dashed #bbb; border-radius: 10px; padding: 16px; text-align: center; color: #666; }
+.drop-zone.active { border-color: #8ab4f8; color: #333; }
+body.dark .drop-zone { border-color: #444; color: #aaa; }
+
+.panel { margin-top: 12px; padding: 10px; border: 1px solid #ddd; border-radius: 8px; background: #fff; }
+body.dark .panel { border-color: #333; background: #1b1b1b; }
+.hidden { display: none; }
+
+.filter-row { display: flex; gap: 12px; align-items: center; }
+
+.timetable { margin-top: 12px; display: grid; gap: 8px; }
+.stage { border: 1px solid #ddd; border-radius: 8px; background: #fff; overflow: hidden; }
+body.dark .stage { border-color: #333; background: #1b1b1b; }
+.stage-header { padding: 8px; background: #f0f4ff; border-bottom: 1px solid #ddd; font-weight: 600; }
+body.dark .stage-header { background: #182030; border-color: #333; }
+.slot { padding: 8px; border-bottom: 1px solid #eee; display: flex; justify-content: space-between; gap: 8px; cursor: pointer; }
+.slot:last-child { border-bottom: none; }
+.slot.checked-list { background: #e8f5e9; }
+body.dark .slot.checked-list { background: #16351a; }
+.slot.checked-both { background: #4caf50; }
+body.dark .slot.checked-both { background: #2e7d32; }
+.slot.ng { background: #ffebee; }
+body.dark .slot.ng { background: #3a161a; }
+.slot .left { display: flex; flex-direction: column; }
+.slot .right { text-align: right; min-width: 160px; display: flex; align-items: center; justify-content: flex-end; gap: 8px; }
+.slot .time-row { font-weight: 600; }
+
+.check-badge { display: inline-flex; align-items: center; padding: 2px 6px; border-radius: 999px; font-size: 11px; border: 1px solid; }
+.check-badge.grid-ok { border-color: #81c784; color: #2e7d32; background: #e8f5e9; }
+body.dark .check-badge.grid-ok { border-color: #66bb6a; color: #c8e6c9; background: #1b5e20; }
+.check-badge.list-ok { border-color: #81c784; color: #2e7d32; background: #e8f5e9; }
+body.dark .check-badge.list-ok { border-color: #66bb6a; color: #c8e6c9; background: #1b5e20; }
+
+.ng-pill { display: inline-flex; align-items: center; gap: 6px; padding: 4px 8px; border: 1px solid #f44336; color: #b71c1c; background: #ffebee; border-radius: 999px; cursor: pointer; user-select: none; }
+body.dark .ng-pill { border-color: #c62828; color: #ffcdd2; background: #3a161a; }
+.ng-pill.active { background: #f44336; color: #fff; border-color: #d32f2f; }
+body.dark .ng-pill.active { background: #d32f2f; color: #fff; border-color: #b71c1c; }
+.tag { display: inline-block; padding: 2px 6px; border-radius: 999px; font-size: 12px; background: #e9f5ff; border: 1px solid #cfe7ff; margin-right: 6px; }
+body.dark .tag { background: #203040; border-color: #304050; }
+
+footer { padding: 8px 16px; border-top: 1px solid #ddd; color: #666; }
+body.dark footer { border-color: #333; color: #aaa; }
+
+/* Simple time-grid (gantt-like) */
+.timetable-grid { margin-top: 16px; }
+.timetable-grid.empty { color: #666; padding: 10px; }
+body.dark .timetable-grid.empty { color: #aaa; }
+.grid-header { display: grid; grid-template-columns: 160px 1fr; align-items: stretch; }
+.grid-hours { position: relative; height: 32px; background: repeating-linear-gradient(to right, #f4f6fa 0, #f4f6fa 59px, #e5eaf3 60px); border: 1px solid #ddd; border-left: none; }
+body.dark .grid-hours { background: repeating-linear-gradient(to right, #1a1f28 0, #1a1f28 59px, #202634 60px); border-color: #333; }
+.grid-hour-labels { position: relative; height: 0; }
+.grid-hour-labels span { position: absolute; top: -22px; transform: translateX(-50%); font-size: 12px; color: #666; }
+body.dark .grid-hour-labels span { color: #aaa; }
+
+.grid-body { display: grid; grid-template-columns: 160px 1fr; gap: 0; }
+.grid-stage-name { padding: 8px; border: 1px solid #ddd; border-right: none; background: #fff; }
+body.dark .grid-stage-name { border-color: #333; background: #1b1b1b; }
+.grid-stage-row { position: relative; height: 44px; border: 1px solid #ddd; border-left: none; background: #fff; }
+body.dark .grid-stage-row { border-color: #333; background: #151515; }
+.slot-bar { position: absolute; top: 6px; height: 32px; border-radius: 6px; background: #8ab4f8; color: #0a203a; display: flex; align-items: center; gap: 6px; padding: 0 8px; box-shadow: 0 1px 2px rgba(0,0,0,0.1); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+body.dark .slot-bar { background: #3b6bbd; color: #e9f1ff; }
+.slot-bar.checked-grid { background: #a5d6a7; color: #1b5e20; }
+body.dark .slot-bar.checked-grid { background: #388e3c; color: #e8f5e9; }
+.slot-bar.checked-both { background: #4caf50; color: #0b250f; }
+body.dark .slot-bar.checked-both { background: #2e7d32; color: #eaffea; }
+.slot-bar.ng { background: #f44336; color: #fff; }
+body.dark .slot-bar.ng { background: #d32f2f; color: #fff; }
+.slot-bar .check { display: inline-flex; align-items: center; justify-content: center; width: 18px; height: 18px; border: 2px solid currentColor; border-radius: 4px; font-size: 14px; line-height: 1; }
+.slot-bar.checked .check { background: currentColor; color: inherit; }
+.slot-bar .time { font-weight: 600; font-size: 12px; }
+.slot-bar .name { font-size: 13px; }

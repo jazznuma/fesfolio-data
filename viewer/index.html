@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Fesfolio Timetable Viewer</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/ajv@8/dist/ajv.min.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Fesfolio Timetable Viewer</h1>
+    <div class="actions">
+      <label class="file-input">
+        JSONファイルを選択
+        <input type="file" id="fileInput" accept="application/json,.json" />
+      </label>
+      <button id="resetChecks" title="チェック状態のリセット">チェックを全解除</button>
+    </div>
+    <p class="hint">ドラッグ＆ドロップでもOK。eventsのJSONを読み込めます。</p>
+  </header>
+
+  <main>
+    <section id="dropZone" class="drop-zone" aria-label="Drop zone" tabindex="0">
+      <p>ここにJSONファイルをドラッグ＆ドロップ</p>
+    </section>
+
+    <section id="validation" class="panel hidden"></section>
+
+    <section id="summary" class="panel hidden"></section>
+
+    <section id="filters" class="panel hidden">
+      <div class="filter-row">
+        <label>ステージ絞り込み:
+          <select id="stageFilter">
+            <option value="">(すべて)</option>
+          </select>
+        </label>
+        <label>検索: <input type="text" id="searchInput" placeholder="出演者名など" /></label>
+      </div>
+    </section>
+
+    <section id="timetableGrid" class="timetable-grid" aria-label="Grid view"></section>
+    <section id="timetable" class="timetable" aria-label="List view"></section>
+  </main>
+</body>
+</html>
