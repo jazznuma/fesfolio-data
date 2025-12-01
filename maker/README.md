@@ -1,4 +1,4 @@
-# Fesfolio Event JSON Maker
+# FesFolio Event JSON Maker
 
 イベントのタイムテーブルJSONを簡単に作成できるWebベースのツールです。完全オフラインで動作し、ブラウザだけで利用できます。
 
@@ -222,7 +222,7 @@ YYYY-MM-DD_カテゴリ_スラッグ.json
 
 **所要時間:** 約10分（OCR時間除く）
 
-## 🐛 トラブルシューティング
+## トラブルシューティング
 
 ### ダウンロードボタンが押せない
 
@@ -267,7 +267,6 @@ YYYY-MM-DD_カテゴリ_スラッグ.json
 - [Viewer README](../viewer/README.md): タイムテーブル表示ツールの説明
 - [イベントスキーマ](../schemas/event.schema.json): JSONファイルの仕様
 - [サンプルJSON](../sample/sample-event.json): JSONファイルの記述例
-- [Scripts README](../scripts/README.md): OCR等の自動化スクリプト
 
 ## ❓ FAQ
 
