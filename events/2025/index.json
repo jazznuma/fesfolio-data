@@ -7,6 +7,13 @@
     "path": "/events/2025/2025-11-30_i_tif-gakuensai-day2.json"
   },
   {
+    "event_id": "2025-12-06_o_shimokita",
+    "event_name": "下北沢にて'25",
+    "date": "2025-12-06",
+    "venue": "下北沢周辺",
+    "path": "/events/2025/2025-12-06_o_shimokita.json"
+  },
+  {
     "event_id": "2025-12-07_i_idol-koshien",
     "event_name": "アイドル甲子園 in KANDA SQUARE HALL",
     "date": "2025-12-07",
