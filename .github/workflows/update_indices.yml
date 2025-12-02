@@ -100,7 +100,7 @@ jobs:
         if: steps.check_changes.outputs.changed == 'true'
         uses: peter-evans/create-pull-request@v6
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.PAT_FOR_PR }}
           commit-message: "chore: auto-update index files"
           title: "Auto update index files"
           body: "This PR was automatically generated because event index files changed."
