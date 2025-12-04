@@ -1,0 +1,10 @@
+1:"$Sreact.fragment"
+2:I[47257,["/fesfolio/_next/static/chunks/ff1a16fafef87110.js","/fesfolio/_next/static/chunks/247eb132b7f7b574.js"],"ClientPageRoot"]
+3:I[52683,["/fesfolio/_next/static/chunks/cb45fa0f82927ff5.js","/fesfolio/_next/static/chunks/82bcf0ddf82a4200.js"],"default"]
+6:I[97367,["/fesfolio/_next/static/chunks/ff1a16fafef87110.js","/fesfolio/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+:HL["/fesfolio/_next/static/chunks/6fd05a5b3a6425ce.css","style"]
+0:{"buildId":"7lKwpaKbvhqwyc0g-eosh","rsc":["$","$1","c",{"children":[["$","$L2",null,{"Component":"$3","serverProvidedParams":{"searchParams":{},"params":{},"promises":["$@4","$@5"]}}],[["$","link","0",{"rel":"stylesheet","href":"/fesfolio/_next/static/chunks/6fd05a5b3a6425ce.css","precedence":"next"}],["$","script","script-0",{"src":"/fesfolio/_next/static/chunks/cb45fa0f82927ff5.js","async":true}],["$","script","script-1",{"src":"/fesfolio/_next/static/chunks/82bcf0ddf82a4200.js","async":true}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],"loading":null,"isPartial":false}
+4:{}
+5:"$0:rsc:props:children:0:props:serverProvidedParams:params"
+8:null
